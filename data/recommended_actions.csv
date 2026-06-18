@@ -1,0 +1,91 @@
+action_id,entity_id,recommendation_theme,priority,expected_value_or_cost_avoidance,confidence,next_step
+ACT0001,ENT001,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,113422,High,automate refresh
+ACT0002,ENT002,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,48422,Medium,ship dashboard
+ACT0003,ENT003,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P3,101976,Directional,investigate anomaly
+ACT0004,ENT004,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,81861,Directional,run stakeholder review
+ACT0005,ENT005,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P3,62318,High,automate refresh
+ACT0006,ENT006,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,102884,High,run stakeholder review
+ACT0007,ENT007,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,88581,High,ship dashboard
+ACT0008,ENT008,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,132832,High,rewrite requirement
+ACT0009,ENT009,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,87977,Directional,automate refresh
+ACT0010,ENT010,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,58698,Directional,automate refresh
+ACT0011,ENT011,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,10552,High,certify metric
+ACT0012,ENT012,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P3,40392,High,investigate anomaly
+ACT0013,ENT013,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,133016,Directional,ship dashboard
+ACT0014,ENT014,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,43924,Directional,investigate anomaly
+ACT0015,ENT015,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,52481,High,run stakeholder review
+ACT0016,ENT016,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,118157,High,certify metric
+ACT0017,ENT017,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,88292,Medium,certify metric
+ACT0018,ENT018,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,126998,High,rewrite requirement
+ACT0019,ENT019,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,32703,High,ship dashboard
+ACT0020,ENT020,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P0,20177,Medium,rewrite requirement
+ACT0021,ENT021,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P3,77679,High,ship dashboard
+ACT0022,ENT022,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,111035,High,automate refresh
+ACT0023,ENT023,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,52564,Directional,ship dashboard
+ACT0024,ENT024,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,70787,Directional,investigate anomaly
+ACT0025,ENT001,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,141074,High,investigate anomaly
+ACT0026,ENT002,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,72787,High,automate refresh
+ACT0027,ENT003,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,88605,High,investigate anomaly
+ACT0028,ENT004,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,86927,High,investigate anomaly
+ACT0029,ENT005,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,132365,High,automate refresh
+ACT0030,ENT006,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,127023,Directional,ship dashboard
+ACT0031,ENT007,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,6667,High,certify metric
+ACT0032,ENT008,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,62748,High,investigate anomaly
+ACT0033,ENT009,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,112009,Medium,run stakeholder review
+ACT0034,ENT010,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,80840,High,automate refresh
+ACT0035,ENT011,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,80680,High,certify metric
+ACT0036,ENT012,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,105371,Medium,investigate anomaly
+ACT0037,ENT013,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,117735,Medium,ship dashboard
+ACT0038,ENT014,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,107860,Directional,run stakeholder review
+ACT0039,ENT015,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,129944,High,ship dashboard
+ACT0040,ENT016,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,53605,Medium,ship dashboard
+ACT0041,ENT017,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,94246,Medium,rewrite requirement
+ACT0042,ENT018,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,28043,Medium,automate refresh
+ACT0043,ENT019,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,6874,Medium,ship dashboard
+ACT0044,ENT020,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,106488,Medium,run stakeholder review
+ACT0045,ENT021,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,82612,Directional,certify metric
+ACT0046,ENT022,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,113056,Directional,rewrite requirement
+ACT0047,ENT023,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,50212,Medium,automate refresh
+ACT0048,ENT024,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,101069,Medium,ship dashboard
+ACT0049,ENT001,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,89837,Directional,investigate anomaly
+ACT0050,ENT002,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,72133,Directional,automate refresh
+ACT0051,ENT003,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,11277,High,certify metric
+ACT0052,ENT004,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,126684,High,automate refresh
+ACT0053,ENT005,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,97296,High,run stakeholder review
+ACT0054,ENT006,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P0,69170,Directional,run stakeholder review
+ACT0055,ENT007,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,8653,Directional,certify metric
+ACT0056,ENT008,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,43548,Medium,automate refresh
+ACT0057,ENT009,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,129719,Directional,automate refresh
+ACT0058,ENT010,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,67985,Medium,investigate anomaly
+ACT0059,ENT011,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,85698,Medium,investigate anomaly
+ACT0060,ENT012,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,91720,High,certify metric
+ACT0061,ENT013,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,55822,High,rewrite requirement
+ACT0062,ENT014,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,139282,Directional,rewrite requirement
+ACT0063,ENT015,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,136260,High,certify metric
+ACT0064,ENT016,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,86654,High,investigate anomaly
+ACT0065,ENT017,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,116253,Directional,rewrite requirement
+ACT0066,ENT018,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,102662,Directional,certify metric
+ACT0067,ENT019,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,138190,Medium,run stakeholder review
+ACT0068,ENT020,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P0,31798,High,run stakeholder review
+ACT0069,ENT021,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,59970,Directional,rewrite requirement
+ACT0070,ENT022,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,63209,Directional,ship dashboard
+ACT0071,ENT023,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,97238,Directional,certify metric
+ACT0072,ENT024,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,2458,High,investigate anomaly
+ACT0073,ENT001,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,104306,Medium,run stakeholder review
+ACT0074,ENT002,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P2,144402,High,rewrite requirement
+ACT0075,ENT003,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P1,142121,High,investigate anomaly
+ACT0076,ENT004,"Publish one stakeholder view that connects backlog priority, GTM dependency, and post-launch learning.",P0,54983,Medium,automate refresh
+ACT0077,ENT005,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,96231,Medium,certify metric
+ACT0078,ENT006,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P0,46072,Medium,certify metric
+ACT0079,ENT007,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P1,101749,High,certify metric
+ACT0080,ENT008,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,91892,Directional,rewrite requirement
+ACT0081,ENT009,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,18490,Medium,certify metric
+ACT0082,ENT010,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P0,94362,High,automate refresh
+ACT0083,ENT011,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,79397,Directional,rewrite requirement
+ACT0084,ENT012,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P0,78989,Medium,automate refresh
+ACT0085,ENT013,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,8110,High,rewrite requirement
+ACT0086,ENT014,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P2,44811,Medium,ship dashboard
+ACT0087,ENT015,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P1,137612,Directional,investigate anomaly
+ACT0088,ENT016,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P2,43907,Directional,run stakeholder review
+ACT0089,ENT017,Require success metrics before sprint grooming so analytics work is not retrofitted after launch.,P3,95350,Medium,ship dashboard
+ACT0090,ENT018,"Score roadmap items with customer pain, usage reach, revenue exposure, effort, and metric readiness.",P3,97909,Medium,ship dashboard

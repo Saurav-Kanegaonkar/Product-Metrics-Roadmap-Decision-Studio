@@ -1,0 +1,25 @@
+entity_id,entity_name,entity_type,owner_team,segment,priority
+ENT001,Market theme 1,Release,Support,Strategic,High
+ENT002,Customer segment 2,Customer segment,Support,At Risk,Low
+ENT003,Customer segment 3,Release,Product,Core,High
+ENT004,Customer segment 4,Feature,Analytics,At Risk,Low
+ENT005,Customer segment 5,Feature,Product,Strategic,High
+ENT006,Release 6,Customer segment,Product,At Risk,Medium
+ENT007,Market theme 7,Release,Support,Emerging,Low
+ENT008,Feature 8,Market theme,Support,At Risk,High
+ENT009,Market theme 9,Release,Research,At Risk,High
+ENT010,Feature 10,Market theme,Analytics,At Risk,Low
+ENT011,Customer segment 11,Customer segment,Engineering,Strategic,Low
+ENT012,Market theme 12,Release,Sales,Strategic,High
+ENT013,Release 13,Feature,Research,Emerging,Medium
+ENT014,Release 14,Release,Engineering,Core,High
+ENT015,Release 15,Customer segment,Research,At Risk,Low
+ENT016,Release 16,Feature,Analytics,Core,Low
+ENT017,Market theme 17,Customer segment,Engineering,Strategic,Medium
+ENT018,Feature 18,Market theme,Product,Strategic,High
+ENT019,Customer segment 19,Customer segment,Analytics,Emerging,High
+ENT020,Market theme 20,Market theme,Operations,Strategic,Low
+ENT021,Customer segment 21,Market theme,Sales,Core,High
+ENT022,Market theme 22,Feature,Product,Core,Medium
+ENT023,Feature 23,Feature,Engineering,Emerging,High
+ENT024,Customer segment 24,Feature,Sales,Strategic,High

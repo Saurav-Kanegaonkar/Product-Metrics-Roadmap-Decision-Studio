@@ -1,0 +1,721 @@
+event_id,event_date,entity_id,source_system,event_type,severity,impacted_metric,records_impacted
+EVT00001,2026-01-01,ENT001,Jira,definition_change,Low,roadmap_score,13725
+EVT00002,2026-01-02,ENT002,Jira,refresh_delay,Medium,launch_readiness,50961
+EVT00003,2026-01-03,ENT003,GTM tracker,refresh_delay,Low,launch_readiness,61344
+EVT00004,2026-01-04,ENT004,GTM tracker,refresh_delay,Low,usage_reach,20696
+EVT00005,2026-01-05,ENT005,Jira,manual_override,Critical,usage_reach,11884
+EVT00006,2026-01-06,ENT006,customer feedback,manual_override,Low,support_friction,30091
+EVT00007,2026-01-07,ENT007,usage analytics,release_review,Medium,usage_reach,36566
+EVT00008,2026-01-08,ENT008,usage analytics,definition_change,Low,usage_reach,16745
+EVT00009,2026-01-09,ENT009,usage analytics,release_review,High,support_friction,8271
+EVT00010,2026-01-10,ENT010,GTM tracker,manual_override,Low,business_impact,59946
+EVT00011,2026-01-11,ENT011,usage analytics,release_review,Low,support_friction,60784
+EVT00012,2026-01-12,ENT012,release notes,qa_failure,High,launch_readiness,38546
+EVT00013,2026-01-13,ENT013,customer feedback,experiment_readout,Critical,launch_readiness,57305
+EVT00014,2026-01-14,ENT014,release notes,experiment_readout,High,usage_reach,59049
+EVT00015,2026-01-15,ENT015,usage analytics,refresh_delay,High,launch_readiness,56136
+EVT00016,2026-01-16,ENT016,release notes,definition_change,Medium,launch_readiness,10314
+EVT00017,2026-01-17,ENT017,Jira,qa_failure,Critical,support_friction,64534
+EVT00018,2026-01-18,ENT018,Jira,release_review,Low,support_friction,6133
+EVT00019,2026-01-19,ENT019,customer feedback,qa_failure,Critical,usage_reach,3774
+EVT00020,2026-01-20,ENT020,usage analytics,qa_failure,High,business_impact,53921
+EVT00021,2026-01-21,ENT021,release notes,qa_failure,Low,launch_readiness,62327
+EVT00022,2026-01-22,ENT022,release notes,refresh_delay,High,business_impact,19557
+EVT00023,2026-01-23,ENT023,Jira,release_review,High,roadmap_score,60326
+EVT00024,2026-01-24,ENT024,release notes,customer_request,High,usage_reach,54130
+EVT00025,2026-01-25,ENT001,customer feedback,definition_change,High,business_impact,3889
+EVT00026,2026-01-26,ENT002,release notes,customer_request,High,usage_reach,19777
+EVT00027,2026-01-27,ENT003,GTM tracker,customer_request,Medium,usage_reach,38869
+EVT00028,2026-01-28,ENT004,usage analytics,manual_override,Low,launch_readiness,31756
+EVT00029,2026-01-29,ENT005,customer feedback,definition_change,Low,usage_reach,39081
+EVT00030,2026-01-30,ENT006,customer feedback,manual_override,Critical,roadmap_score,15485
+EVT00031,2026-01-31,ENT007,customer feedback,release_review,Critical,launch_readiness,38207
+EVT00032,2026-02-01,ENT008,release notes,refresh_delay,Critical,support_friction,34408
+EVT00033,2026-02-02,ENT009,GTM tracker,customer_request,Medium,roadmap_score,42575
+EVT00034,2026-02-03,ENT010,GTM tracker,definition_change,Critical,business_impact,56058
+EVT00035,2026-02-04,ENT011,usage analytics,customer_request,Critical,usage_reach,56978
+EVT00036,2026-02-05,ENT012,Jira,qa_failure,High,launch_readiness,25010
+EVT00037,2026-02-06,ENT013,release notes,qa_failure,Critical,support_friction,40054
+EVT00038,2026-02-07,ENT014,usage analytics,manual_override,Critical,usage_reach,13762
+EVT00039,2026-02-08,ENT015,GTM tracker,qa_failure,Low,business_impact,18985
+EVT00040,2026-02-09,ENT016,release notes,refresh_delay,Medium,business_impact,4642
+EVT00041,2026-02-10,ENT017,release notes,qa_failure,Low,business_impact,10604
+EVT00042,2026-02-11,ENT018,release notes,refresh_delay,Medium,usage_reach,25159
+EVT00043,2026-02-12,ENT019,usage analytics,customer_request,Critical,support_friction,28045
+EVT00044,2026-02-13,ENT020,release notes,qa_failure,High,support_friction,37742
+EVT00045,2026-02-14,ENT021,Jira,qa_failure,High,usage_reach,28779
+EVT00046,2026-02-15,ENT022,Jira,customer_request,Low,usage_reach,33336
+EVT00047,2026-02-16,ENT023,Jira,customer_request,Low,support_friction,37104
+EVT00048,2026-02-17,ENT024,Jira,qa_failure,Critical,support_friction,58829
+EVT00049,2026-02-18,ENT001,usage analytics,release_review,Medium,support_friction,36661
+EVT00050,2026-02-19,ENT002,release notes,definition_change,High,roadmap_score,7615
+EVT00051,2026-02-20,ENT003,usage analytics,refresh_delay,Low,roadmap_score,16912
+EVT00052,2026-02-21,ENT004,GTM tracker,manual_override,Critical,business_impact,5948
+EVT00053,2026-02-22,ENT005,Jira,refresh_delay,Medium,business_impact,46965
+EVT00054,2026-02-23,ENT006,customer feedback,experiment_readout,Medium,usage_reach,29563
+EVT00055,2026-02-24,ENT007,customer feedback,release_review,Critical,launch_readiness,36437
+EVT00056,2026-02-25,ENT008,customer feedback,refresh_delay,High,business_impact,62557
+EVT00057,2026-02-26,ENT009,customer feedback,qa_failure,Critical,roadmap_score,35029
+EVT00058,2026-02-27,ENT010,customer feedback,definition_change,Critical,business_impact,35159
+EVT00059,2026-02-28,ENT011,GTM tracker,release_review,High,launch_readiness,8315
+EVT00060,2026-03-01,ENT012,release notes,qa_failure,Low,roadmap_score,26113
+EVT00061,2026-03-02,ENT013,Jira,refresh_delay,Medium,launch_readiness,28332
+EVT00062,2026-03-03,ENT014,customer feedback,customer_request,Low,roadmap_score,58804
+EVT00063,2026-03-04,ENT015,release notes,manual_override,Low,roadmap_score,38428
+EVT00064,2026-03-05,ENT016,customer feedback,release_review,Critical,usage_reach,21664
+EVT00065,2026-03-06,ENT017,Jira,release_review,Medium,support_friction,8766
+EVT00066,2026-03-07,ENT018,customer feedback,definition_change,Critical,roadmap_score,21806
+EVT00067,2026-03-08,ENT019,release notes,qa_failure,Low,usage_reach,60821
+EVT00068,2026-03-09,ENT020,GTM tracker,qa_failure,High,usage_reach,51783
+EVT00069,2026-03-10,ENT021,GTM tracker,definition_change,High,roadmap_score,38833
+EVT00070,2026-03-11,ENT022,release notes,manual_override,High,support_friction,8498
+EVT00071,2026-03-12,ENT023,GTM tracker,definition_change,Low,launch_readiness,54407
+EVT00072,2026-03-13,ENT024,customer feedback,manual_override,Low,launch_readiness,48860
+EVT00073,2026-03-14,ENT001,Jira,refresh_delay,Medium,roadmap_score,64549
+EVT00074,2026-03-15,ENT002,customer feedback,customer_request,Medium,support_friction,40127
+EVT00075,2026-03-16,ENT003,Jira,refresh_delay,High,business_impact,9998
+EVT00076,2026-03-17,ENT004,customer feedback,qa_failure,Medium,roadmap_score,32782
+EVT00077,2026-03-18,ENT005,customer feedback,qa_failure,High,launch_readiness,33643
+EVT00078,2026-03-19,ENT006,release notes,experiment_readout,Low,support_friction,62266
+EVT00079,2026-03-20,ENT007,Jira,manual_override,High,launch_readiness,1956
+EVT00080,2026-03-21,ENT008,customer feedback,definition_change,Critical,roadmap_score,58272
+EVT00081,2026-03-22,ENT009,GTM tracker,qa_failure,Low,launch_readiness,9251
+EVT00082,2026-03-23,ENT010,Jira,definition_change,High,support_friction,33047
+EVT00083,2026-03-24,ENT011,usage analytics,refresh_delay,Medium,support_friction,20322
+EVT00084,2026-03-25,ENT012,release notes,qa_failure,Medium,roadmap_score,42241
+EVT00085,2026-03-26,ENT013,Jira,refresh_delay,Low,launch_readiness,40527
+EVT00086,2026-03-27,ENT014,release notes,qa_failure,Critical,usage_reach,15772
+EVT00087,2026-03-28,ENT015,GTM tracker,refresh_delay,High,roadmap_score,15190
+EVT00088,2026-03-29,ENT016,usage analytics,release_review,High,business_impact,32574
+EVT00089,2026-03-30,ENT017,Jira,experiment_readout,Critical,usage_reach,22655
+EVT00090,2026-03-31,ENT018,usage analytics,definition_change,Critical,roadmap_score,777
+EVT00091,2026-04-01,ENT019,release notes,experiment_readout,Low,support_friction,36572
+EVT00092,2026-04-02,ENT020,Jira,manual_override,Critical,support_friction,1596
+EVT00093,2026-04-03,ENT021,GTM tracker,refresh_delay,Low,business_impact,54895
+EVT00094,2026-04-04,ENT022,usage analytics,definition_change,Medium,business_impact,42334
+EVT00095,2026-04-05,ENT023,usage analytics,release_review,Low,launch_readiness,44379
+EVT00096,2026-04-06,ENT024,Jira,release_review,Low,business_impact,18037
+EVT00097,2026-04-07,ENT001,release notes,qa_failure,Critical,business_impact,2248
+EVT00098,2026-04-08,ENT002,usage analytics,customer_request,Low,support_friction,13125
+EVT00099,2026-04-09,ENT003,customer feedback,qa_failure,Low,business_impact,18978
+EVT00100,2026-04-10,ENT004,GTM tracker,refresh_delay,High,support_friction,43156
+EVT00101,2026-04-11,ENT005,Jira,qa_failure,High,support_friction,36372
+EVT00102,2026-04-12,ENT006,customer feedback,customer_request,High,roadmap_score,49395
+EVT00103,2026-04-13,ENT007,Jira,refresh_delay,Medium,launch_readiness,44395
+EVT00104,2026-04-14,ENT008,Jira,manual_override,Low,support_friction,42426
+EVT00105,2026-04-15,ENT009,usage analytics,customer_request,Critical,support_friction,49143
+EVT00106,2026-04-16,ENT010,release notes,definition_change,Low,roadmap_score,47181
+EVT00107,2026-04-17,ENT011,customer feedback,refresh_delay,High,usage_reach,52493
+EVT00108,2026-04-18,ENT012,usage analytics,refresh_delay,Low,business_impact,15806
+EVT00109,2026-04-19,ENT013,Jira,manual_override,Critical,launch_readiness,6899
+EVT00110,2026-04-20,ENT014,usage analytics,release_review,Low,launch_readiness,29919
+EVT00111,2026-04-21,ENT015,GTM tracker,definition_change,Medium,launch_readiness,37277
+EVT00112,2026-04-22,ENT016,release notes,experiment_readout,High,business_impact,20708
+EVT00113,2026-04-23,ENT017,Jira,refresh_delay,Medium,usage_reach,15911
+EVT00114,2026-04-24,ENT018,Jira,manual_override,Low,business_impact,40239
+EVT00115,2026-04-25,ENT019,GTM tracker,manual_override,Low,usage_reach,5287
+EVT00116,2026-04-26,ENT020,customer feedback,release_review,Medium,support_friction,18138
+EVT00117,2026-04-27,ENT021,customer feedback,manual_override,Critical,launch_readiness,55425
+EVT00118,2026-04-28,ENT022,Jira,definition_change,Low,business_impact,44244
+EVT00119,2026-04-29,ENT023,Jira,qa_failure,Medium,roadmap_score,48910
+EVT00120,2026-04-30,ENT024,Jira,definition_change,High,business_impact,38428
+EVT00121,2026-01-01,ENT001,usage analytics,release_review,High,launch_readiness,625
+EVT00122,2026-01-02,ENT002,GTM tracker,manual_override,High,usage_reach,27997
+EVT00123,2026-01-03,ENT003,GTM tracker,customer_request,Medium,support_friction,35987
+EVT00124,2026-01-04,ENT004,usage analytics,experiment_readout,Critical,launch_readiness,9738
+EVT00125,2026-01-05,ENT005,usage analytics,qa_failure,Critical,launch_readiness,54279
+EVT00126,2026-01-06,ENT006,Jira,definition_change,Medium,launch_readiness,27314
+EVT00127,2026-01-07,ENT007,GTM tracker,qa_failure,High,launch_readiness,49754
+EVT00128,2026-01-08,ENT008,release notes,refresh_delay,Low,launch_readiness,38130
+EVT00129,2026-01-09,ENT009,customer feedback,customer_request,Critical,launch_readiness,32771
+EVT00130,2026-01-10,ENT010,usage analytics,qa_failure,Medium,roadmap_score,43156
+EVT00131,2026-01-11,ENT011,Jira,customer_request,Critical,business_impact,399
+EVT00132,2026-01-12,ENT012,release notes,definition_change,Low,roadmap_score,60050
+EVT00133,2026-01-13,ENT013,customer feedback,experiment_readout,Critical,usage_reach,61834
+EVT00134,2026-01-14,ENT014,customer feedback,experiment_readout,Critical,roadmap_score,6068
+EVT00135,2026-01-15,ENT015,GTM tracker,manual_override,Low,launch_readiness,29597
+EVT00136,2026-01-16,ENT016,Jira,customer_request,Critical,usage_reach,13394
+EVT00137,2026-01-17,ENT017,Jira,manual_override,High,business_impact,55605
+EVT00138,2026-01-18,ENT018,customer feedback,customer_request,High,business_impact,34335
+EVT00139,2026-01-19,ENT019,customer feedback,manual_override,Medium,usage_reach,31840
+EVT00140,2026-01-20,ENT020,usage analytics,manual_override,Medium,usage_reach,273
+EVT00141,2026-01-21,ENT021,GTM tracker,manual_override,High,support_friction,47000
+EVT00142,2026-01-22,ENT022,customer feedback,customer_request,Medium,business_impact,12256
+EVT00143,2026-01-23,ENT023,customer feedback,experiment_readout,Critical,business_impact,11383
+EVT00144,2026-01-24,ENT024,Jira,release_review,High,support_friction,60739
+EVT00145,2026-01-25,ENT001,Jira,customer_request,Low,usage_reach,10042
+EVT00146,2026-01-26,ENT002,GTM tracker,definition_change,Medium,business_impact,202
+EVT00147,2026-01-27,ENT003,Jira,refresh_delay,High,launch_readiness,20960
+EVT00148,2026-01-28,ENT004,Jira,refresh_delay,Low,support_friction,37707
+EVT00149,2026-01-29,ENT005,GTM tracker,definition_change,Low,usage_reach,40113
+EVT00150,2026-01-30,ENT006,GTM tracker,definition_change,Low,launch_readiness,15557
+EVT00151,2026-01-31,ENT007,Jira,refresh_delay,Critical,business_impact,4132
+EVT00152,2026-02-01,ENT008,customer feedback,qa_failure,Medium,usage_reach,29493
+EVT00153,2026-02-02,ENT009,GTM tracker,refresh_delay,Critical,launch_readiness,20059
+EVT00154,2026-02-03,ENT010,customer feedback,qa_failure,Critical,support_friction,13969
+EVT00155,2026-02-04,ENT011,release notes,customer_request,Low,support_friction,9267
+EVT00156,2026-02-05,ENT012,GTM tracker,refresh_delay,Medium,roadmap_score,58414
+EVT00157,2026-02-06,ENT013,usage analytics,customer_request,Critical,business_impact,60472
+EVT00158,2026-02-07,ENT014,release notes,manual_override,Low,support_friction,6962
+EVT00159,2026-02-08,ENT015,Jira,refresh_delay,Medium,business_impact,24897
+EVT00160,2026-02-09,ENT016,usage analytics,release_review,Low,usage_reach,4159
+EVT00161,2026-02-10,ENT017,Jira,manual_override,Critical,roadmap_score,29877
+EVT00162,2026-02-11,ENT018,release notes,experiment_readout,High,business_impact,8292
+EVT00163,2026-02-12,ENT019,usage analytics,customer_request,Critical,usage_reach,1950
+EVT00164,2026-02-13,ENT020,GTM tracker,release_review,Medium,usage_reach,22270
+EVT00165,2026-02-14,ENT021,GTM tracker,release_review,Low,launch_readiness,15449
+EVT00166,2026-02-15,ENT022,customer feedback,qa_failure,High,usage_reach,37472
+EVT00167,2026-02-16,ENT023,GTM tracker,manual_override,Medium,launch_readiness,59799
+EVT00168,2026-02-17,ENT024,usage analytics,refresh_delay,High,launch_readiness,59869
+EVT00169,2026-02-18,ENT001,GTM tracker,manual_override,High,launch_readiness,62465
+EVT00170,2026-02-19,ENT002,Jira,customer_request,Critical,business_impact,35292
+EVT00171,2026-02-20,ENT003,release notes,refresh_delay,High,support_friction,44653
+EVT00172,2026-02-21,ENT004,GTM tracker,experiment_readout,High,business_impact,20963
+EVT00173,2026-02-22,ENT005,Jira,experiment_readout,Critical,business_impact,26004
+EVT00174,2026-02-23,ENT006,Jira,release_review,Low,launch_readiness,17215
+EVT00175,2026-02-24,ENT007,GTM tracker,release_review,Medium,support_friction,29134
+EVT00176,2026-02-25,ENT008,Jira,experiment_readout,Critical,usage_reach,5656
+EVT00177,2026-02-26,ENT009,Jira,refresh_delay,High,business_impact,59769
+EVT00178,2026-02-27,ENT010,Jira,release_review,High,launch_readiness,27095
+EVT00179,2026-02-28,ENT011,Jira,refresh_delay,Medium,support_friction,44409
+EVT00180,2026-03-01,ENT012,customer feedback,manual_override,High,support_friction,63900
+EVT00181,2026-03-02,ENT013,Jira,experiment_readout,High,launch_readiness,9033
+EVT00182,2026-03-03,ENT014,usage analytics,qa_failure,Medium,launch_readiness,54658
+EVT00183,2026-03-04,ENT015,GTM tracker,experiment_readout,Medium,business_impact,16431
+EVT00184,2026-03-05,ENT016,customer feedback,experiment_readout,Medium,business_impact,25193
+EVT00185,2026-03-06,ENT017,release notes,manual_override,High,launch_readiness,19384
+EVT00186,2026-03-07,ENT018,release notes,customer_request,Low,launch_readiness,31483
+EVT00187,2026-03-08,ENT019,GTM tracker,release_review,Medium,usage_reach,49471
+EVT00188,2026-03-09,ENT020,Jira,experiment_readout,Critical,launch_readiness,46869
+EVT00189,2026-03-10,ENT021,GTM tracker,qa_failure,Medium,business_impact,11011
+EVT00190,2026-03-11,ENT022,release notes,experiment_readout,Critical,business_impact,36426
+EVT00191,2026-03-12,ENT023,customer feedback,refresh_delay,Low,support_friction,46752
+EVT00192,2026-03-13,ENT024,usage analytics,customer_request,Low,support_friction,5853
+EVT00193,2026-03-14,ENT001,Jira,qa_failure,Low,usage_reach,37833
+EVT00194,2026-03-15,ENT002,GTM tracker,qa_failure,Medium,roadmap_score,13044
+EVT00195,2026-03-16,ENT003,release notes,definition_change,Medium,business_impact,13392
+EVT00196,2026-03-17,ENT004,GTM tracker,manual_override,High,roadmap_score,33378
+EVT00197,2026-03-18,ENT005,release notes,qa_failure,Critical,support_friction,58362
+EVT00198,2026-03-19,ENT006,release notes,experiment_readout,High,support_friction,7130
+EVT00199,2026-03-20,ENT007,usage analytics,refresh_delay,Critical,business_impact,63976
+EVT00200,2026-03-21,ENT008,release notes,qa_failure,Critical,support_friction,25132
+EVT00201,2026-03-22,ENT009,release notes,release_review,Low,roadmap_score,537
+EVT00202,2026-03-23,ENT010,usage analytics,experiment_readout,Low,support_friction,64463
+EVT00203,2026-03-24,ENT011,Jira,manual_override,Critical,usage_reach,17999
+EVT00204,2026-03-25,ENT012,customer feedback,manual_override,Critical,usage_reach,4025
+EVT00205,2026-03-26,ENT013,usage analytics,manual_override,Critical,launch_readiness,44394
+EVT00206,2026-03-27,ENT014,customer feedback,manual_override,Low,usage_reach,49692
+EVT00207,2026-03-28,ENT015,release notes,definition_change,Low,support_friction,42094
+EVT00208,2026-03-29,ENT016,release notes,release_review,Critical,business_impact,45188
+EVT00209,2026-03-30,ENT017,usage analytics,qa_failure,Low,business_impact,23062
+EVT00210,2026-03-31,ENT018,customer feedback,qa_failure,Low,launch_readiness,53348
+EVT00211,2026-04-01,ENT019,Jira,customer_request,Medium,launch_readiness,45598
+EVT00212,2026-04-02,ENT020,release notes,release_review,High,roadmap_score,48503
+EVT00213,2026-04-03,ENT021,release notes,qa_failure,Medium,support_friction,42620
+EVT00214,2026-04-04,ENT022,customer feedback,qa_failure,Low,roadmap_score,56033
+EVT00215,2026-04-05,ENT023,customer feedback,manual_override,Critical,business_impact,35591
+EVT00216,2026-04-06,ENT024,GTM tracker,definition_change,Low,usage_reach,50028
+EVT00217,2026-04-07,ENT001,release notes,manual_override,High,business_impact,19262
+EVT00218,2026-04-08,ENT002,GTM tracker,qa_failure,Low,support_friction,4086
+EVT00219,2026-04-09,ENT003,release notes,experiment_readout,Low,launch_readiness,15140
+EVT00220,2026-04-10,ENT004,usage analytics,experiment_readout,Medium,support_friction,25620
+EVT00221,2026-04-11,ENT005,Jira,customer_request,Medium,usage_reach,6890
+EVT00222,2026-04-12,ENT006,release notes,refresh_delay,Critical,business_impact,37859
+EVT00223,2026-04-13,ENT007,customer feedback,release_review,Critical,usage_reach,38961
+EVT00224,2026-04-14,ENT008,usage analytics,release_review,Critical,launch_readiness,40555
+EVT00225,2026-04-15,ENT009,customer feedback,refresh_delay,Critical,roadmap_score,20702
+EVT00226,2026-04-16,ENT010,usage analytics,experiment_readout,Low,business_impact,45176
+EVT00227,2026-04-17,ENT011,usage analytics,refresh_delay,Medium,business_impact,17378
+EVT00228,2026-04-18,ENT012,GTM tracker,experiment_readout,High,roadmap_score,55818
+EVT00229,2026-04-19,ENT013,release notes,experiment_readout,Medium,business_impact,27857
+EVT00230,2026-04-20,ENT014,release notes,manual_override,High,usage_reach,2930
+EVT00231,2026-04-21,ENT015,usage analytics,manual_override,Medium,launch_readiness,45211
+EVT00232,2026-04-22,ENT016,GTM tracker,customer_request,Low,business_impact,17440
+EVT00233,2026-04-23,ENT017,release notes,release_review,High,usage_reach,12818
+EVT00234,2026-04-24,ENT018,GTM tracker,qa_failure,Medium,usage_reach,51995
+EVT00235,2026-04-25,ENT019,Jira,release_review,Low,usage_reach,34282
+EVT00236,2026-04-26,ENT020,release notes,experiment_readout,Critical,roadmap_score,26880
+EVT00237,2026-04-27,ENT021,release notes,manual_override,Critical,support_friction,41232
+EVT00238,2026-04-28,ENT022,customer feedback,experiment_readout,Critical,usage_reach,46558
+EVT00239,2026-04-29,ENT023,release notes,experiment_readout,Critical,support_friction,43449
+EVT00240,2026-04-30,ENT024,usage analytics,release_review,High,roadmap_score,16780
+EVT00241,2026-01-01,ENT001,GTM tracker,release_review,Medium,support_friction,2562
+EVT00242,2026-01-02,ENT002,customer feedback,release_review,Medium,business_impact,24592
+EVT00243,2026-01-03,ENT003,usage analytics,definition_change,Medium,usage_reach,52359
+EVT00244,2026-01-04,ENT004,usage analytics,customer_request,High,business_impact,62081
+EVT00245,2026-01-05,ENT005,customer feedback,definition_change,High,launch_readiness,27397
+EVT00246,2026-01-06,ENT006,GTM tracker,qa_failure,Critical,business_impact,8585
+EVT00247,2026-01-07,ENT007,customer feedback,release_review,Medium,roadmap_score,20536
+EVT00248,2026-01-08,ENT008,customer feedback,refresh_delay,Critical,usage_reach,3625
+EVT00249,2026-01-09,ENT009,Jira,manual_override,High,usage_reach,57614
+EVT00250,2026-01-10,ENT010,release notes,manual_override,High,support_friction,30961
+EVT00251,2026-01-11,ENT011,usage analytics,release_review,High,roadmap_score,50097
+EVT00252,2026-01-12,ENT012,GTM tracker,release_review,Medium,launch_readiness,1527
+EVT00253,2026-01-13,ENT013,usage analytics,experiment_readout,Medium,launch_readiness,52652
+EVT00254,2026-01-14,ENT014,Jira,experiment_readout,Critical,launch_readiness,60316
+EVT00255,2026-01-15,ENT015,GTM tracker,release_review,Low,business_impact,31769
+EVT00256,2026-01-16,ENT016,usage analytics,manual_override,Low,launch_readiness,13221
+EVT00257,2026-01-17,ENT017,usage analytics,customer_request,High,roadmap_score,57266
+EVT00258,2026-01-18,ENT018,customer feedback,experiment_readout,Critical,roadmap_score,40671
+EVT00259,2026-01-19,ENT019,customer feedback,customer_request,High,roadmap_score,54431
+EVT00260,2026-01-20,ENT020,usage analytics,experiment_readout,Critical,launch_readiness,40866
+EVT00261,2026-01-21,ENT021,release notes,qa_failure,Medium,business_impact,22135
+EVT00262,2026-01-22,ENT022,GTM tracker,customer_request,Low,business_impact,12253
+EVT00263,2026-01-23,ENT023,release notes,customer_request,Medium,launch_readiness,15728
+EVT00264,2026-01-24,ENT024,usage analytics,experiment_readout,Low,support_friction,20177
+EVT00265,2026-01-25,ENT001,customer feedback,qa_failure,Low,support_friction,64639
+EVT00266,2026-01-26,ENT002,customer feedback,refresh_delay,Medium,business_impact,38695
+EVT00267,2026-01-27,ENT003,GTM tracker,qa_failure,Medium,support_friction,6356
+EVT00268,2026-01-28,ENT004,release notes,definition_change,Medium,usage_reach,58317
+EVT00269,2026-01-29,ENT005,customer feedback,experiment_readout,Medium,support_friction,54059
+EVT00270,2026-01-30,ENT006,release notes,manual_override,Low,business_impact,6616
+EVT00271,2026-01-31,ENT007,release notes,experiment_readout,Critical,launch_readiness,3036
+EVT00272,2026-02-01,ENT008,usage analytics,experiment_readout,High,business_impact,55339
+EVT00273,2026-02-02,ENT009,Jira,release_review,Low,business_impact,20708
+EVT00274,2026-02-03,ENT010,release notes,qa_failure,Low,launch_readiness,29603
+EVT00275,2026-02-04,ENT011,Jira,qa_failure,Medium,usage_reach,20442
+EVT00276,2026-02-05,ENT012,release notes,manual_override,High,launch_readiness,34084
+EVT00277,2026-02-06,ENT013,GTM tracker,definition_change,Critical,business_impact,45827
+EVT00278,2026-02-07,ENT014,usage analytics,customer_request,High,support_friction,60612
+EVT00279,2026-02-08,ENT015,customer feedback,experiment_readout,Medium,usage_reach,4300
+EVT00280,2026-02-09,ENT016,release notes,customer_request,Critical,support_friction,50586
+EVT00281,2026-02-10,ENT017,customer feedback,manual_override,High,business_impact,59668
+EVT00282,2026-02-11,ENT018,release notes,experiment_readout,High,support_friction,62054
+EVT00283,2026-02-12,ENT019,GTM tracker,refresh_delay,Medium,roadmap_score,63645
+EVT00284,2026-02-13,ENT020,Jira,qa_failure,Low,business_impact,2771
+EVT00285,2026-02-14,ENT021,release notes,customer_request,Low,launch_readiness,56396
+EVT00286,2026-02-15,ENT022,usage analytics,qa_failure,Critical,business_impact,19859
+EVT00287,2026-02-16,ENT023,usage analytics,customer_request,Low,usage_reach,32067
+EVT00288,2026-02-17,ENT024,GTM tracker,definition_change,Low,roadmap_score,61297
+EVT00289,2026-02-18,ENT001,GTM tracker,qa_failure,High,support_friction,16157
+EVT00290,2026-02-19,ENT002,Jira,refresh_delay,Low,launch_readiness,13687
+EVT00291,2026-02-20,ENT003,GTM tracker,experiment_readout,Medium,usage_reach,28016
+EVT00292,2026-02-21,ENT004,release notes,qa_failure,Medium,launch_readiness,58582
+EVT00293,2026-02-22,ENT005,Jira,definition_change,High,roadmap_score,10461
+EVT00294,2026-02-23,ENT006,Jira,customer_request,Medium,business_impact,51923
+EVT00295,2026-02-24,ENT007,GTM tracker,refresh_delay,High,usage_reach,61861
+EVT00296,2026-02-25,ENT008,usage analytics,definition_change,Medium,support_friction,21803
+EVT00297,2026-02-26,ENT009,Jira,manual_override,High,roadmap_score,8640
+EVT00298,2026-02-27,ENT010,Jira,experiment_readout,Low,business_impact,46081
+EVT00299,2026-02-28,ENT011,GTM tracker,manual_override,Critical,support_friction,2409
+EVT00300,2026-03-01,ENT012,release notes,qa_failure,Low,support_friction,23470
+EVT00301,2026-03-02,ENT013,usage analytics,release_review,Medium,business_impact,23967
+EVT00302,2026-03-03,ENT014,release notes,manual_override,Critical,support_friction,55573
+EVT00303,2026-03-04,ENT015,release notes,customer_request,Low,usage_reach,62266
+EVT00304,2026-03-05,ENT016,Jira,customer_request,Medium,roadmap_score,8460
+EVT00305,2026-03-06,ENT017,Jira,experiment_readout,Critical,roadmap_score,19735
+EVT00306,2026-03-07,ENT018,customer feedback,qa_failure,Critical,usage_reach,40408
+EVT00307,2026-03-08,ENT019,release notes,definition_change,High,support_friction,28441
+EVT00308,2026-03-09,ENT020,Jira,definition_change,Low,launch_readiness,12743
+EVT00309,2026-03-10,ENT021,release notes,release_review,Critical,support_friction,51441
+EVT00310,2026-03-11,ENT022,customer feedback,qa_failure,Medium,business_impact,64973
+EVT00311,2026-03-12,ENT023,usage analytics,manual_override,High,usage_reach,29056
+EVT00312,2026-03-13,ENT024,usage analytics,refresh_delay,High,launch_readiness,35717
+EVT00313,2026-03-14,ENT001,release notes,refresh_delay,Critical,business_impact,32889
+EVT00314,2026-03-15,ENT002,GTM tracker,customer_request,High,business_impact,28018
+EVT00315,2026-03-16,ENT003,release notes,release_review,Critical,support_friction,55443
+EVT00316,2026-03-17,ENT004,Jira,refresh_delay,Critical,business_impact,13878
+EVT00317,2026-03-18,ENT005,release notes,definition_change,Low,launch_readiness,24696
+EVT00318,2026-03-19,ENT006,Jira,definition_change,Low,support_friction,24428
+EVT00319,2026-03-20,ENT007,release notes,qa_failure,Low,usage_reach,23397
+EVT00320,2026-03-21,ENT008,release notes,refresh_delay,Critical,launch_readiness,34917
+EVT00321,2026-03-22,ENT009,release notes,release_review,High,roadmap_score,10675
+EVT00322,2026-03-23,ENT010,customer feedback,manual_override,High,launch_readiness,56556
+EVT00323,2026-03-24,ENT011,Jira,manual_override,Medium,roadmap_score,29417
+EVT00324,2026-03-25,ENT012,Jira,release_review,Low,usage_reach,37908
+EVT00325,2026-03-26,ENT013,GTM tracker,experiment_readout,High,roadmap_score,28090
+EVT00326,2026-03-27,ENT014,Jira,manual_override,Medium,support_friction,38254
+EVT00327,2026-03-28,ENT015,GTM tracker,definition_change,High,roadmap_score,19182
+EVT00328,2026-03-29,ENT016,GTM tracker,manual_override,Medium,business_impact,15853
+EVT00329,2026-03-30,ENT017,Jira,definition_change,Medium,roadmap_score,39596
+EVT00330,2026-03-31,ENT018,usage analytics,refresh_delay,Medium,usage_reach,11409
+EVT00331,2026-04-01,ENT019,Jira,manual_override,High,support_friction,51034
+EVT00332,2026-04-02,ENT020,usage analytics,customer_request,Low,support_friction,63718
+EVT00333,2026-04-03,ENT021,customer feedback,customer_request,High,business_impact,55502
+EVT00334,2026-04-04,ENT022,usage analytics,manual_override,Medium,launch_readiness,56190
+EVT00335,2026-04-05,ENT023,customer feedback,qa_failure,Critical,support_friction,14324
+EVT00336,2026-04-06,ENT024,Jira,qa_failure,Medium,roadmap_score,21203
+EVT00337,2026-04-07,ENT001,customer feedback,manual_override,High,support_friction,56599
+EVT00338,2026-04-08,ENT002,Jira,qa_failure,Low,usage_reach,42230
+EVT00339,2026-04-09,ENT003,usage analytics,manual_override,Low,roadmap_score,17892
+EVT00340,2026-04-10,ENT004,customer feedback,experiment_readout,Low,launch_readiness,35123
+EVT00341,2026-04-11,ENT005,Jira,definition_change,Low,launch_readiness,63757
+EVT00342,2026-04-12,ENT006,Jira,customer_request,Medium,usage_reach,33925
+EVT00343,2026-04-13,ENT007,GTM tracker,customer_request,High,roadmap_score,16161
+EVT00344,2026-04-14,ENT008,usage analytics,definition_change,Low,usage_reach,3821
+EVT00345,2026-04-15,ENT009,Jira,manual_override,Critical,roadmap_score,1999
+EVT00346,2026-04-16,ENT010,GTM tracker,experiment_readout,Low,launch_readiness,35144
+EVT00347,2026-04-17,ENT011,Jira,customer_request,Medium,roadmap_score,50530
+EVT00348,2026-04-18,ENT012,Jira,definition_change,Low,support_friction,40693
+EVT00349,2026-04-19,ENT013,Jira,customer_request,High,roadmap_score,62606
+EVT00350,2026-04-20,ENT014,Jira,qa_failure,Critical,roadmap_score,48966
+EVT00351,2026-04-21,ENT015,usage analytics,experiment_readout,Medium,business_impact,30927
+EVT00352,2026-04-22,ENT016,Jira,qa_failure,High,roadmap_score,16703
+EVT00353,2026-04-23,ENT017,release notes,release_review,High,launch_readiness,8945
+EVT00354,2026-04-24,ENT018,GTM tracker,manual_override,Critical,usage_reach,14905
+EVT00355,2026-04-25,ENT019,release notes,experiment_readout,Medium,launch_readiness,12860
+EVT00356,2026-04-26,ENT020,GTM tracker,manual_override,Critical,launch_readiness,26566
+EVT00357,2026-04-27,ENT021,customer feedback,refresh_delay,Critical,business_impact,46319
+EVT00358,2026-04-28,ENT022,Jira,manual_override,High,launch_readiness,46952
+EVT00359,2026-04-29,ENT023,release notes,release_review,Critical,support_friction,57275
+EVT00360,2026-04-30,ENT024,release notes,definition_change,Medium,usage_reach,938
+EVT00361,2026-01-01,ENT001,customer feedback,customer_request,Critical,roadmap_score,44665
+EVT00362,2026-01-02,ENT002,customer feedback,refresh_delay,Low,support_friction,47566
+EVT00363,2026-01-03,ENT003,usage analytics,manual_override,Low,usage_reach,11280
+EVT00364,2026-01-04,ENT004,GTM tracker,qa_failure,Low,launch_readiness,16886
+EVT00365,2026-01-05,ENT005,customer feedback,definition_change,High,roadmap_score,26811
+EVT00366,2026-01-06,ENT006,Jira,customer_request,High,support_friction,63107
+EVT00367,2026-01-07,ENT007,usage analytics,refresh_delay,Critical,business_impact,18896
+EVT00368,2026-01-08,ENT008,Jira,release_review,High,roadmap_score,16292
+EVT00369,2026-01-09,ENT009,Jira,definition_change,Critical,roadmap_score,43077
+EVT00370,2026-01-10,ENT010,release notes,customer_request,High,launch_readiness,33490
+EVT00371,2026-01-11,ENT011,customer feedback,customer_request,Low,usage_reach,53175
+EVT00372,2026-01-12,ENT012,Jira,refresh_delay,Medium,business_impact,62144
+EVT00373,2026-01-13,ENT013,Jira,release_review,Low,business_impact,38336
+EVT00374,2026-01-14,ENT014,usage analytics,customer_request,Low,launch_readiness,9163
+EVT00375,2026-01-15,ENT015,usage analytics,refresh_delay,Medium,business_impact,26063
+EVT00376,2026-01-16,ENT016,Jira,definition_change,High,usage_reach,4780
+EVT00377,2026-01-17,ENT017,GTM tracker,manual_override,Critical,support_friction,8979
+EVT00378,2026-01-18,ENT018,GTM tracker,customer_request,Critical,roadmap_score,40482
+EVT00379,2026-01-19,ENT019,GTM tracker,manual_override,Critical,launch_readiness,34353
+EVT00380,2026-01-20,ENT020,usage analytics,definition_change,Medium,launch_readiness,45407
+EVT00381,2026-01-21,ENT021,customer feedback,definition_change,Critical,support_friction,48781
+EVT00382,2026-01-22,ENT022,release notes,manual_override,High,launch_readiness,398
+EVT00383,2026-01-23,ENT023,usage analytics,experiment_readout,High,launch_readiness,56472
+EVT00384,2026-01-24,ENT024,customer feedback,qa_failure,Critical,roadmap_score,61866
+EVT00385,2026-01-25,ENT001,Jira,definition_change,Low,support_friction,28836
+EVT00386,2026-01-26,ENT002,usage analytics,experiment_readout,High,roadmap_score,7463
+EVT00387,2026-01-27,ENT003,release notes,qa_failure,Medium,business_impact,55418
+EVT00388,2026-01-28,ENT004,Jira,experiment_readout,Critical,launch_readiness,61115
+EVT00389,2026-01-29,ENT005,customer feedback,customer_request,Critical,roadmap_score,37458
+EVT00390,2026-01-30,ENT006,release notes,qa_failure,Medium,support_friction,53215
+EVT00391,2026-01-31,ENT007,Jira,manual_override,High,business_impact,29986
+EVT00392,2026-02-01,ENT008,release notes,definition_change,Low,usage_reach,45724
+EVT00393,2026-02-02,ENT009,GTM tracker,refresh_delay,Critical,roadmap_score,58215
+EVT00394,2026-02-03,ENT010,Jira,experiment_readout,High,roadmap_score,53227
+EVT00395,2026-02-04,ENT011,customer feedback,refresh_delay,Medium,business_impact,27478
+EVT00396,2026-02-05,ENT012,release notes,experiment_readout,Medium,launch_readiness,2017
+EVT00397,2026-02-06,ENT013,GTM tracker,release_review,High,usage_reach,44471
+EVT00398,2026-02-07,ENT014,release notes,manual_override,High,launch_readiness,62943
+EVT00399,2026-02-08,ENT015,GTM tracker,definition_change,High,support_friction,17391
+EVT00400,2026-02-09,ENT016,usage analytics,refresh_delay,Critical,business_impact,18987
+EVT00401,2026-02-10,ENT017,Jira,definition_change,Medium,usage_reach,5669
+EVT00402,2026-02-11,ENT018,release notes,customer_request,Medium,support_friction,25808
+EVT00403,2026-02-12,ENT019,usage analytics,experiment_readout,Low,business_impact,61614
+EVT00404,2026-02-13,ENT020,Jira,experiment_readout,Low,usage_reach,43561
+EVT00405,2026-02-14,ENT021,release notes,experiment_readout,Critical,launch_readiness,61702
+EVT00406,2026-02-15,ENT022,Jira,refresh_delay,Low,launch_readiness,61825
+EVT00407,2026-02-16,ENT023,customer feedback,definition_change,Critical,usage_reach,63369
+EVT00408,2026-02-17,ENT024,release notes,qa_failure,Low,support_friction,28577
+EVT00409,2026-02-18,ENT001,customer feedback,manual_override,Medium,support_friction,48096
+EVT00410,2026-02-19,ENT002,release notes,experiment_readout,Medium,support_friction,46770
+EVT00411,2026-02-20,ENT003,usage analytics,qa_failure,Critical,support_friction,17738
+EVT00412,2026-02-21,ENT004,customer feedback,manual_override,Critical,roadmap_score,11529
+EVT00413,2026-02-22,ENT005,customer feedback,release_review,Medium,launch_readiness,25330
+EVT00414,2026-02-23,ENT006,Jira,qa_failure,Low,usage_reach,42501
+EVT00415,2026-02-24,ENT007,Jira,customer_request,Critical,launch_readiness,13524
+EVT00416,2026-02-25,ENT008,customer feedback,qa_failure,Low,usage_reach,3282
+EVT00417,2026-02-26,ENT009,release notes,definition_change,High,support_friction,8014
+EVT00418,2026-02-27,ENT010,GTM tracker,customer_request,Critical,roadmap_score,36203
+EVT00419,2026-02-28,ENT011,Jira,qa_failure,High,roadmap_score,32128
+EVT00420,2026-03-01,ENT012,customer feedback,customer_request,Critical,roadmap_score,36991
+EVT00421,2026-03-02,ENT013,Jira,customer_request,Critical,support_friction,39809
+EVT00422,2026-03-03,ENT014,release notes,release_review,High,roadmap_score,61684
+EVT00423,2026-03-04,ENT015,GTM tracker,release_review,Low,support_friction,60197
+EVT00424,2026-03-05,ENT016,Jira,manual_override,High,support_friction,29022
+EVT00425,2026-03-06,ENT017,Jira,manual_override,Medium,usage_reach,1921
+EVT00426,2026-03-07,ENT018,customer feedback,qa_failure,Medium,business_impact,37729
+EVT00427,2026-03-08,ENT019,release notes,experiment_readout,Critical,usage_reach,9437
+EVT00428,2026-03-09,ENT020,customer feedback,qa_failure,Critical,roadmap_score,29527
+EVT00429,2026-03-10,ENT021,usage analytics,definition_change,High,roadmap_score,53634
+EVT00430,2026-03-11,ENT022,release notes,definition_change,Medium,support_friction,39272
+EVT00431,2026-03-12,ENT023,Jira,refresh_delay,Low,support_friction,57819
+EVT00432,2026-03-13,ENT024,GTM tracker,manual_override,Low,launch_readiness,27141
+EVT00433,2026-03-14,ENT001,usage analytics,definition_change,Critical,roadmap_score,20621
+EVT00434,2026-03-15,ENT002,usage analytics,definition_change,Low,business_impact,44003
+EVT00435,2026-03-16,ENT003,GTM tracker,refresh_delay,High,launch_readiness,28401
+EVT00436,2026-03-17,ENT004,Jira,customer_request,Critical,business_impact,47910
+EVT00437,2026-03-18,ENT005,customer feedback,manual_override,Medium,launch_readiness,26471
+EVT00438,2026-03-19,ENT006,Jira,experiment_readout,Critical,usage_reach,32590
+EVT00439,2026-03-20,ENT007,Jira,manual_override,Critical,business_impact,11875
+EVT00440,2026-03-21,ENT008,usage analytics,definition_change,Low,usage_reach,5295
+EVT00441,2026-03-22,ENT009,GTM tracker,refresh_delay,Low,roadmap_score,923
+EVT00442,2026-03-23,ENT010,Jira,refresh_delay,Medium,support_friction,37454
+EVT00443,2026-03-24,ENT011,customer feedback,manual_override,Medium,roadmap_score,36892
+EVT00444,2026-03-25,ENT012,GTM tracker,experiment_readout,Low,business_impact,8866
+EVT00445,2026-03-26,ENT013,release notes,experiment_readout,Critical,usage_reach,2888
+EVT00446,2026-03-27,ENT014,usage analytics,definition_change,Critical,launch_readiness,11133
+EVT00447,2026-03-28,ENT015,usage analytics,release_review,Critical,launch_readiness,52122
+EVT00448,2026-03-29,ENT016,customer feedback,manual_override,Critical,business_impact,36265
+EVT00449,2026-03-30,ENT017,release notes,qa_failure,Critical,business_impact,63841
+EVT00450,2026-03-31,ENT018,Jira,manual_override,Critical,launch_readiness,51325
+EVT00451,2026-04-01,ENT019,Jira,manual_override,Low,support_friction,5848
+EVT00452,2026-04-02,ENT020,GTM tracker,refresh_delay,Critical,roadmap_score,33393
+EVT00453,2026-04-03,ENT021,GTM tracker,release_review,Low,launch_readiness,27713
+EVT00454,2026-04-04,ENT022,customer feedback,customer_request,High,roadmap_score,41464
+EVT00455,2026-04-05,ENT023,customer feedback,experiment_readout,Medium,support_friction,20028
+EVT00456,2026-04-06,ENT024,release notes,refresh_delay,Medium,support_friction,29651
+EVT00457,2026-04-07,ENT001,customer feedback,release_review,Critical,launch_readiness,9644
+EVT00458,2026-04-08,ENT002,usage analytics,manual_override,Low,launch_readiness,56091
+EVT00459,2026-04-09,ENT003,Jira,release_review,Low,usage_reach,22299
+EVT00460,2026-04-10,ENT004,GTM tracker,refresh_delay,Low,launch_readiness,1198
+EVT00461,2026-04-11,ENT005,usage analytics,release_review,Low,usage_reach,32958
+EVT00462,2026-04-12,ENT006,release notes,refresh_delay,Low,usage_reach,37598
+EVT00463,2026-04-13,ENT007,usage analytics,release_review,Medium,usage_reach,34890
+EVT00464,2026-04-14,ENT008,GTM tracker,qa_failure,Medium,roadmap_score,11191
+EVT00465,2026-04-15,ENT009,Jira,definition_change,Critical,launch_readiness,18999
+EVT00466,2026-04-16,ENT010,customer feedback,manual_override,Low,usage_reach,61114
+EVT00467,2026-04-17,ENT011,release notes,experiment_readout,Critical,launch_readiness,61571
+EVT00468,2026-04-18,ENT012,release notes,qa_failure,High,support_friction,2609
+EVT00469,2026-04-19,ENT013,customer feedback,release_review,Critical,launch_readiness,21197
+EVT00470,2026-04-20,ENT014,GTM tracker,experiment_readout,Critical,support_friction,51480
+EVT00471,2026-04-21,ENT015,GTM tracker,experiment_readout,Low,business_impact,24413
+EVT00472,2026-04-22,ENT016,release notes,definition_change,Low,usage_reach,44
+EVT00473,2026-04-23,ENT017,usage analytics,customer_request,Low,support_friction,26194
+EVT00474,2026-04-24,ENT018,usage analytics,release_review,High,usage_reach,41666
+EVT00475,2026-04-25,ENT019,customer feedback,release_review,Medium,launch_readiness,23453
+EVT00476,2026-04-26,ENT020,release notes,refresh_delay,Low,roadmap_score,63568
+EVT00477,2026-04-27,ENT021,Jira,qa_failure,Low,roadmap_score,25596
+EVT00478,2026-04-28,ENT022,customer feedback,customer_request,Critical,business_impact,63980
+EVT00479,2026-04-29,ENT023,GTM tracker,manual_override,Critical,launch_readiness,39058
+EVT00480,2026-04-30,ENT024,customer feedback,manual_override,Low,launch_readiness,3840
+EVT00481,2026-01-01,ENT001,GTM tracker,release_review,Medium,support_friction,38552
+EVT00482,2026-01-02,ENT002,usage analytics,refresh_delay,Low,support_friction,16223
+EVT00483,2026-01-03,ENT003,customer feedback,qa_failure,Medium,roadmap_score,32328
+EVT00484,2026-01-04,ENT004,GTM tracker,manual_override,Low,support_friction,53372
+EVT00485,2026-01-05,ENT005,release notes,release_review,High,launch_readiness,41502
+EVT00486,2026-01-06,ENT006,usage analytics,qa_failure,Critical,support_friction,56080
+EVT00487,2026-01-07,ENT007,customer feedback,release_review,High,business_impact,50638
+EVT00488,2026-01-08,ENT008,usage analytics,customer_request,Critical,business_impact,1550
+EVT00489,2026-01-09,ENT009,GTM tracker,release_review,Critical,launch_readiness,37578
+EVT00490,2026-01-10,ENT010,Jira,qa_failure,High,roadmap_score,14096
+EVT00491,2026-01-11,ENT011,usage analytics,refresh_delay,High,business_impact,26637
+EVT00492,2026-01-12,ENT012,Jira,manual_override,High,roadmap_score,35061
+EVT00493,2026-01-13,ENT013,Jira,qa_failure,High,support_friction,59576
+EVT00494,2026-01-14,ENT014,Jira,experiment_readout,Critical,launch_readiness,35403
+EVT00495,2026-01-15,ENT015,customer feedback,experiment_readout,Critical,roadmap_score,14886
+EVT00496,2026-01-16,ENT016,GTM tracker,release_review,Low,launch_readiness,44116
+EVT00497,2026-01-17,ENT017,usage analytics,manual_override,High,business_impact,46593
+EVT00498,2026-01-18,ENT018,release notes,refresh_delay,Low,business_impact,63380
+EVT00499,2026-01-19,ENT019,usage analytics,definition_change,Critical,support_friction,2152
+EVT00500,2026-01-20,ENT020,customer feedback,definition_change,Critical,launch_readiness,18835
+EVT00501,2026-01-21,ENT021,release notes,refresh_delay,Low,launch_readiness,5503
+EVT00502,2026-01-22,ENT022,Jira,qa_failure,Medium,business_impact,18058
+EVT00503,2026-01-23,ENT023,GTM tracker,manual_override,Low,business_impact,3053
+EVT00504,2026-01-24,ENT024,release notes,definition_change,High,usage_reach,18035
+EVT00505,2026-01-25,ENT001,GTM tracker,qa_failure,High,business_impact,40002
+EVT00506,2026-01-26,ENT002,GTM tracker,release_review,Medium,roadmap_score,4275
+EVT00507,2026-01-27,ENT003,usage analytics,qa_failure,Critical,business_impact,64391
+EVT00508,2026-01-28,ENT004,Jira,experiment_readout,Critical,roadmap_score,28179
+EVT00509,2026-01-29,ENT005,Jira,release_review,High,support_friction,41144
+EVT00510,2026-01-30,ENT006,customer feedback,definition_change,Medium,roadmap_score,30808
+EVT00511,2026-01-31,ENT007,usage analytics,release_review,Low,usage_reach,12696
+EVT00512,2026-02-01,ENT008,release notes,qa_failure,High,business_impact,46501
+EVT00513,2026-02-02,ENT009,usage analytics,customer_request,Critical,launch_readiness,19053
+EVT00514,2026-02-03,ENT010,release notes,qa_failure,High,roadmap_score,37443
+EVT00515,2026-02-04,ENT011,release notes,refresh_delay,High,business_impact,30263
+EVT00516,2026-02-05,ENT012,GTM tracker,manual_override,Critical,business_impact,23841
+EVT00517,2026-02-06,ENT013,customer feedback,manual_override,Low,roadmap_score,57549
+EVT00518,2026-02-07,ENT014,customer feedback,definition_change,Low,launch_readiness,3572
+EVT00519,2026-02-08,ENT015,Jira,release_review,Medium,usage_reach,42420
+EVT00520,2026-02-09,ENT016,Jira,refresh_delay,Critical,launch_readiness,33687
+EVT00521,2026-02-10,ENT017,release notes,refresh_delay,High,launch_readiness,59176
+EVT00522,2026-02-11,ENT018,customer feedback,qa_failure,Critical,usage_reach,58136
+EVT00523,2026-02-12,ENT019,usage analytics,definition_change,Low,usage_reach,8404
+EVT00524,2026-02-13,ENT020,release notes,definition_change,High,roadmap_score,10563
+EVT00525,2026-02-14,ENT021,release notes,qa_failure,Medium,usage_reach,49199
+EVT00526,2026-02-15,ENT022,GTM tracker,release_review,Low,business_impact,7123
+EVT00527,2026-02-16,ENT023,GTM tracker,definition_change,High,roadmap_score,40741
+EVT00528,2026-02-17,ENT024,customer feedback,experiment_readout,Medium,business_impact,41532
+EVT00529,2026-02-18,ENT001,release notes,experiment_readout,Medium,support_friction,4012
+EVT00530,2026-02-19,ENT002,Jira,qa_failure,Medium,support_friction,50239
+EVT00531,2026-02-20,ENT003,GTM tracker,definition_change,Medium,usage_reach,8942
+EVT00532,2026-02-21,ENT004,customer feedback,qa_failure,Low,roadmap_score,1671
+EVT00533,2026-02-22,ENT005,customer feedback,manual_override,Medium,roadmap_score,4997
+EVT00534,2026-02-23,ENT006,GTM tracker,definition_change,Medium,support_friction,56254
+EVT00535,2026-02-24,ENT007,customer feedback,release_review,Critical,usage_reach,53926
+EVT00536,2026-02-25,ENT008,release notes,experiment_readout,Low,usage_reach,4581
+EVT00537,2026-02-26,ENT009,GTM tracker,manual_override,Low,support_friction,40672
+EVT00538,2026-02-27,ENT010,release notes,customer_request,Low,usage_reach,45784
+EVT00539,2026-02-28,ENT011,customer feedback,experiment_readout,High,business_impact,12155
+EVT00540,2026-03-01,ENT012,Jira,refresh_delay,High,usage_reach,36465
+EVT00541,2026-03-02,ENT013,Jira,customer_request,Medium,business_impact,30726
+EVT00542,2026-03-03,ENT014,usage analytics,refresh_delay,High,support_friction,63213
+EVT00543,2026-03-04,ENT015,GTM tracker,experiment_readout,Medium,launch_readiness,53024
+EVT00544,2026-03-05,ENT016,Jira,definition_change,Low,support_friction,17425
+EVT00545,2026-03-06,ENT017,customer feedback,definition_change,Critical,usage_reach,12046
+EVT00546,2026-03-07,ENT018,release notes,manual_override,Low,launch_readiness,39800
+EVT00547,2026-03-08,ENT019,Jira,definition_change,Low,launch_readiness,41190
+EVT00548,2026-03-09,ENT020,release notes,qa_failure,Critical,roadmap_score,55468
+EVT00549,2026-03-10,ENT021,customer feedback,refresh_delay,Critical,roadmap_score,53239
+EVT00550,2026-03-11,ENT022,GTM tracker,manual_override,Low,support_friction,6347
+EVT00551,2026-03-12,ENT023,GTM tracker,manual_override,High,business_impact,24856
+EVT00552,2026-03-13,ENT024,Jira,refresh_delay,Critical,launch_readiness,25183
+EVT00553,2026-03-14,ENT001,Jira,definition_change,Medium,usage_reach,176
+EVT00554,2026-03-15,ENT002,usage analytics,definition_change,Critical,roadmap_score,55412
+EVT00555,2026-03-16,ENT003,GTM tracker,experiment_readout,High,support_friction,43909
+EVT00556,2026-03-17,ENT004,Jira,experiment_readout,High,support_friction,23398
+EVT00557,2026-03-18,ENT005,release notes,release_review,Low,usage_reach,16019
+EVT00558,2026-03-19,ENT006,customer feedback,definition_change,Critical,business_impact,54099
+EVT00559,2026-03-20,ENT007,Jira,manual_override,High,launch_readiness,2088
+EVT00560,2026-03-21,ENT008,Jira,experiment_readout,Critical,business_impact,21595
+EVT00561,2026-03-22,ENT009,customer feedback,qa_failure,Critical,usage_reach,36538
+EVT00562,2026-03-23,ENT010,customer feedback,qa_failure,Low,launch_readiness,34325
+EVT00563,2026-03-24,ENT011,release notes,qa_failure,Low,business_impact,38705
+EVT00564,2026-03-25,ENT012,Jira,experiment_readout,High,support_friction,39958
+EVT00565,2026-03-26,ENT013,release notes,customer_request,Critical,launch_readiness,46307
+EVT00566,2026-03-27,ENT014,GTM tracker,qa_failure,High,launch_readiness,59540
+EVT00567,2026-03-28,ENT015,customer feedback,refresh_delay,Critical,business_impact,32402
+EVT00568,2026-03-29,ENT016,Jira,qa_failure,High,usage_reach,40019
+EVT00569,2026-03-30,ENT017,usage analytics,qa_failure,High,support_friction,43792
+EVT00570,2026-03-31,ENT018,GTM tracker,customer_request,Low,usage_reach,7507
+EVT00571,2026-04-01,ENT019,release notes,refresh_delay,High,business_impact,4477
+EVT00572,2026-04-02,ENT020,Jira,manual_override,High,support_friction,48586
+EVT00573,2026-04-03,ENT021,customer feedback,definition_change,Medium,usage_reach,9040
+EVT00574,2026-04-04,ENT022,release notes,release_review,Low,launch_readiness,49843
+EVT00575,2026-04-05,ENT023,GTM tracker,experiment_readout,Critical,launch_readiness,21758
+EVT00576,2026-04-06,ENT024,customer feedback,experiment_readout,Low,launch_readiness,2282
+EVT00577,2026-04-07,ENT001,customer feedback,refresh_delay,Critical,business_impact,9004
+EVT00578,2026-04-08,ENT002,usage analytics,customer_request,Low,support_friction,26286
+EVT00579,2026-04-09,ENT003,GTM tracker,qa_failure,Critical,roadmap_score,34565
+EVT00580,2026-04-10,ENT004,customer feedback,experiment_readout,High,launch_readiness,52828
+EVT00581,2026-04-11,ENT005,GTM tracker,release_review,Low,roadmap_score,6977
+EVT00582,2026-04-12,ENT006,usage analytics,manual_override,Critical,roadmap_score,21329
+EVT00583,2026-04-13,ENT007,customer feedback,refresh_delay,Critical,launch_readiness,36564
+EVT00584,2026-04-14,ENT008,GTM tracker,definition_change,Critical,usage_reach,10181
+EVT00585,2026-04-15,ENT009,customer feedback,refresh_delay,Medium,launch_readiness,63473
+EVT00586,2026-04-16,ENT010,Jira,experiment_readout,Critical,usage_reach,48764
+EVT00587,2026-04-17,ENT011,release notes,release_review,Low,business_impact,39917
+EVT00588,2026-04-18,ENT012,Jira,refresh_delay,High,roadmap_score,60631
+EVT00589,2026-04-19,ENT013,GTM tracker,customer_request,Low,launch_readiness,7726
+EVT00590,2026-04-20,ENT014,GTM tracker,manual_override,Low,business_impact,14728
+EVT00591,2026-04-21,ENT015,usage analytics,definition_change,High,launch_readiness,25110
+EVT00592,2026-04-22,ENT016,usage analytics,refresh_delay,Low,usage_reach,40024
+EVT00593,2026-04-23,ENT017,release notes,customer_request,Medium,support_friction,14324
+EVT00594,2026-04-24,ENT018,GTM tracker,qa_failure,Critical,support_friction,41471
+EVT00595,2026-04-25,ENT019,release notes,refresh_delay,Low,support_friction,41100
+EVT00596,2026-04-26,ENT020,usage analytics,manual_override,High,launch_readiness,16445
+EVT00597,2026-04-27,ENT021,Jira,definition_change,Low,launch_readiness,27124
+EVT00598,2026-04-28,ENT022,GTM tracker,customer_request,Critical,usage_reach,15804
+EVT00599,2026-04-29,ENT023,usage analytics,customer_request,Low,roadmap_score,62885
+EVT00600,2026-04-30,ENT024,release notes,manual_override,Low,usage_reach,14840
+EVT00601,2026-01-01,ENT001,GTM tracker,customer_request,Critical,usage_reach,17229
+EVT00602,2026-01-02,ENT002,release notes,qa_failure,High,launch_readiness,36344
+EVT00603,2026-01-03,ENT003,Jira,manual_override,High,roadmap_score,9543
+EVT00604,2026-01-04,ENT004,release notes,manual_override,Medium,business_impact,46021
+EVT00605,2026-01-05,ENT005,Jira,qa_failure,Low,usage_reach,24286
+EVT00606,2026-01-06,ENT006,release notes,manual_override,Medium,support_friction,6252
+EVT00607,2026-01-07,ENT007,usage analytics,definition_change,Low,support_friction,17161
+EVT00608,2026-01-08,ENT008,release notes,release_review,Critical,launch_readiness,59329
+EVT00609,2026-01-09,ENT009,usage analytics,definition_change,Low,roadmap_score,51148
+EVT00610,2026-01-10,ENT010,Jira,experiment_readout,Low,support_friction,13089
+EVT00611,2026-01-11,ENT011,customer feedback,release_review,High,usage_reach,37711
+EVT00612,2026-01-12,ENT012,customer feedback,experiment_readout,Low,business_impact,39280
+EVT00613,2026-01-13,ENT013,usage analytics,experiment_readout,Low,usage_reach,28129
+EVT00614,2026-01-14,ENT014,usage analytics,refresh_delay,Medium,launch_readiness,34884
+EVT00615,2026-01-15,ENT015,GTM tracker,experiment_readout,Low,support_friction,60325
+EVT00616,2026-01-16,ENT016,release notes,definition_change,Critical,roadmap_score,27903
+EVT00617,2026-01-17,ENT017,GTM tracker,definition_change,Low,support_friction,14398
+EVT00618,2026-01-18,ENT018,usage analytics,manual_override,Critical,business_impact,61740
+EVT00619,2026-01-19,ENT019,Jira,release_review,Critical,roadmap_score,58524
+EVT00620,2026-01-20,ENT020,Jira,customer_request,Medium,launch_readiness,695
+EVT00621,2026-01-21,ENT021,customer feedback,refresh_delay,Medium,usage_reach,40540
+EVT00622,2026-01-22,ENT022,GTM tracker,release_review,Medium,roadmap_score,49233
+EVT00623,2026-01-23,ENT023,release notes,experiment_readout,Medium,business_impact,17714
+EVT00624,2026-01-24,ENT024,release notes,refresh_delay,Critical,support_friction,60151
+EVT00625,2026-01-25,ENT001,GTM tracker,experiment_readout,Critical,support_friction,52195
+EVT00626,2026-01-26,ENT002,Jira,release_review,High,launch_readiness,45733
+EVT00627,2026-01-27,ENT003,Jira,customer_request,Critical,usage_reach,23656
+EVT00628,2026-01-28,ENT004,release notes,customer_request,Low,roadmap_score,62611
+EVT00629,2026-01-29,ENT005,usage analytics,definition_change,Critical,support_friction,41079
+EVT00630,2026-01-30,ENT006,release notes,manual_override,Critical,support_friction,7352
+EVT00631,2026-01-31,ENT007,usage analytics,qa_failure,Medium,business_impact,19020
+EVT00632,2026-02-01,ENT008,customer feedback,experiment_readout,Medium,usage_reach,19534
+EVT00633,2026-02-02,ENT009,customer feedback,experiment_readout,Low,usage_reach,11087
+EVT00634,2026-02-03,ENT010,customer feedback,qa_failure,High,usage_reach,64980
+EVT00635,2026-02-04,ENT011,usage analytics,release_review,Low,business_impact,20921
+EVT00636,2026-02-05,ENT012,GTM tracker,experiment_readout,Critical,roadmap_score,31570
+EVT00637,2026-02-06,ENT013,customer feedback,manual_override,Critical,support_friction,28217
+EVT00638,2026-02-07,ENT014,Jira,customer_request,Critical,business_impact,9923
+EVT00639,2026-02-08,ENT015,customer feedback,release_review,Critical,usage_reach,49171
+EVT00640,2026-02-09,ENT016,Jira,manual_override,Low,roadmap_score,24486
+EVT00641,2026-02-10,ENT017,customer feedback,manual_override,Medium,launch_readiness,34518
+EVT00642,2026-02-11,ENT018,usage analytics,experiment_readout,High,usage_reach,29594
+EVT00643,2026-02-12,ENT019,GTM tracker,customer_request,High,usage_reach,5871
+EVT00644,2026-02-13,ENT020,GTM tracker,qa_failure,Critical,business_impact,27015
+EVT00645,2026-02-14,ENT021,usage analytics,definition_change,Critical,roadmap_score,32153
+EVT00646,2026-02-15,ENT022,GTM tracker,release_review,Critical,usage_reach,62818
+EVT00647,2026-02-16,ENT023,release notes,experiment_readout,Critical,launch_readiness,23081
+EVT00648,2026-02-17,ENT024,customer feedback,customer_request,Low,launch_readiness,57673
+EVT00649,2026-02-18,ENT001,release notes,manual_override,Medium,usage_reach,25391
+EVT00650,2026-02-19,ENT002,usage analytics,release_review,Medium,launch_readiness,33623
+EVT00651,2026-02-20,ENT003,Jira,customer_request,Low,usage_reach,57256
+EVT00652,2026-02-21,ENT004,GTM tracker,qa_failure,Critical,support_friction,3242
+EVT00653,2026-02-22,ENT005,GTM tracker,refresh_delay,Critical,business_impact,34235
+EVT00654,2026-02-23,ENT006,usage analytics,customer_request,High,business_impact,54893
+EVT00655,2026-02-24,ENT007,customer feedback,refresh_delay,Medium,roadmap_score,59381
+EVT00656,2026-02-25,ENT008,Jira,qa_failure,High,usage_reach,17897
+EVT00657,2026-02-26,ENT009,release notes,qa_failure,Critical,business_impact,54822
+EVT00658,2026-02-27,ENT010,GTM tracker,experiment_readout,Low,launch_readiness,34366
+EVT00659,2026-02-28,ENT011,release notes,refresh_delay,High,launch_readiness,51765
+EVT00660,2026-03-01,ENT012,usage analytics,definition_change,High,support_friction,38871
+EVT00661,2026-03-02,ENT013,customer feedback,customer_request,Low,support_friction,52870
+EVT00662,2026-03-03,ENT014,release notes,release_review,High,roadmap_score,15980
+EVT00663,2026-03-04,ENT015,release notes,manual_override,High,usage_reach,43485
+EVT00664,2026-03-05,ENT016,GTM tracker,definition_change,Medium,business_impact,19717
+EVT00665,2026-03-06,ENT017,release notes,release_review,Medium,launch_readiness,27754
+EVT00666,2026-03-07,ENT018,customer feedback,manual_override,Critical,business_impact,6811
+EVT00667,2026-03-08,ENT019,customer feedback,qa_failure,Medium,roadmap_score,57558
+EVT00668,2026-03-09,ENT020,GTM tracker,release_review,Low,usage_reach,29354
+EVT00669,2026-03-10,ENT021,Jira,customer_request,Low,launch_readiness,6087
+EVT00670,2026-03-11,ENT022,release notes,customer_request,Critical,launch_readiness,5344
+EVT00671,2026-03-12,ENT023,usage analytics,release_review,Medium,usage_reach,39401
+EVT00672,2026-03-13,ENT024,GTM tracker,qa_failure,Low,usage_reach,31137
+EVT00673,2026-03-14,ENT001,customer feedback,release_review,Low,usage_reach,34853
+EVT00674,2026-03-15,ENT002,Jira,experiment_readout,Medium,launch_readiness,53412
+EVT00675,2026-03-16,ENT003,release notes,refresh_delay,Low,launch_readiness,17132
+EVT00676,2026-03-17,ENT004,customer feedback,manual_override,Critical,launch_readiness,17056
+EVT00677,2026-03-18,ENT005,release notes,customer_request,Critical,roadmap_score,498
+EVT00678,2026-03-19,ENT006,Jira,customer_request,High,launch_readiness,20433
+EVT00679,2026-03-20,ENT007,GTM tracker,qa_failure,High,roadmap_score,55839
+EVT00680,2026-03-21,ENT008,release notes,release_review,Medium,launch_readiness,18913
+EVT00681,2026-03-22,ENT009,customer feedback,qa_failure,Critical,roadmap_score,26248
+EVT00682,2026-03-23,ENT010,customer feedback,definition_change,Medium,launch_readiness,14360
+EVT00683,2026-03-24,ENT011,customer feedback,qa_failure,Low,usage_reach,19022
+EVT00684,2026-03-25,ENT012,customer feedback,definition_change,Critical,launch_readiness,54323
+EVT00685,2026-03-26,ENT013,usage analytics,experiment_readout,Low,launch_readiness,7061
+EVT00686,2026-03-27,ENT014,customer feedback,qa_failure,Low,launch_readiness,55892
+EVT00687,2026-03-28,ENT015,customer feedback,definition_change,Critical,roadmap_score,11318
+EVT00688,2026-03-29,ENT016,usage analytics,manual_override,Critical,business_impact,16697
+EVT00689,2026-03-30,ENT017,customer feedback,refresh_delay,Critical,roadmap_score,41598
+EVT00690,2026-03-31,ENT018,GTM tracker,manual_override,High,usage_reach,7821
+EVT00691,2026-04-01,ENT019,release notes,definition_change,Medium,roadmap_score,53768
+EVT00692,2026-04-02,ENT020,release notes,release_review,Critical,roadmap_score,54370
+EVT00693,2026-04-03,ENT021,usage analytics,customer_request,Critical,launch_readiness,28208
+EVT00694,2026-04-04,ENT022,Jira,manual_override,Critical,launch_readiness,52929
+EVT00695,2026-04-05,ENT023,Jira,release_review,Medium,support_friction,28199
+EVT00696,2026-04-06,ENT024,customer feedback,experiment_readout,Low,business_impact,51058
+EVT00697,2026-04-07,ENT001,usage analytics,experiment_readout,Medium,launch_readiness,21901
+EVT00698,2026-04-08,ENT002,release notes,definition_change,Critical,usage_reach,15843
+EVT00699,2026-04-09,ENT003,release notes,qa_failure,Low,usage_reach,33835
+EVT00700,2026-04-10,ENT004,GTM tracker,manual_override,Medium,business_impact,19837
+EVT00701,2026-04-11,ENT005,customer feedback,release_review,Low,usage_reach,41629
+EVT00702,2026-04-12,ENT006,release notes,release_review,High,launch_readiness,63906
+EVT00703,2026-04-13,ENT007,customer feedback,release_review,Medium,roadmap_score,16063
+EVT00704,2026-04-14,ENT008,GTM tracker,definition_change,Low,launch_readiness,55306
+EVT00705,2026-04-15,ENT009,Jira,qa_failure,Medium,business_impact,47689
+EVT00706,2026-04-16,ENT010,GTM tracker,experiment_readout,High,support_friction,10374
+EVT00707,2026-04-17,ENT011,release notes,release_review,Low,business_impact,12521
+EVT00708,2026-04-18,ENT012,Jira,qa_failure,Critical,launch_readiness,64234
+EVT00709,2026-04-19,ENT013,Jira,refresh_delay,High,support_friction,45577
+EVT00710,2026-04-20,ENT014,GTM tracker,definition_change,Critical,roadmap_score,47392
+EVT00711,2026-04-21,ENT015,usage analytics,qa_failure,Medium,roadmap_score,38839
+EVT00712,2026-04-22,ENT016,GTM tracker,customer_request,High,usage_reach,31048
+EVT00713,2026-04-23,ENT017,release notes,customer_request,High,launch_readiness,29002
+EVT00714,2026-04-24,ENT018,customer feedback,release_review,Medium,launch_readiness,34605
+EVT00715,2026-04-25,ENT019,GTM tracker,experiment_readout,Medium,roadmap_score,17085
+EVT00716,2026-04-26,ENT020,usage analytics,release_review,High,launch_readiness,31355
+EVT00717,2026-04-27,ENT021,Jira,definition_change,High,support_friction,10771
+EVT00718,2026-04-28,ENT022,release notes,refresh_delay,Critical,usage_reach,8392
+EVT00719,2026-04-29,ENT023,GTM tracker,manual_override,Low,roadmap_score,36255
+EVT00720,2026-04-30,ENT024,customer feedback,release_review,Medium,usage_reach,2626
