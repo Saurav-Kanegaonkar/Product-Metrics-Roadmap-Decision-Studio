@@ -1,0 +1,1827 @@
+{
+  "summary": {
+    "avgRoadmapScore": 86.5,
+    "buildNow": 3,
+    "readyReleases": 1,
+    "metricReady": 3,
+    "highQualityFlags": 4,
+    "topInitiative": "Smart candidate-job matching engine",
+    "topInsight": "The best roadmap candidates combine customer pain, strategic fit, metric readiness, and realistic delivery scope."
+  },
+  "initiatives": [
+    {
+      "initiative_id": "INIT-001",
+      "product_area": "Talent placement portal",
+      "initiative": "Smart candidate-job matching engine",
+      "customer_segment": "job seekers and recruiting coordinators",
+      "primary_persona": "placement operations lead",
+      "problem_statement": "Recruiters need faster shortlists that still preserve role fit, interview readiness, and candidate preference signals.",
+      "target_metric": "qualified placement conversion",
+      "customer_pain_score": 88,
+      "strategic_fit_score": 91,
+      "revenue_reach_score": 84,
+      "competitor_pressure_score": 86,
+      "effort_points": 34,
+      "dependency_risk_score": 58,
+      "analytics_readiness_score": 79,
+      "gtm_readiness_score": 75,
+      "roadmap_score": 88.9,
+      "recommendation": "Build now",
+      "owner": "Product and placement operations"
+    },
+    {
+      "initiative_id": "INIT-005",
+      "product_area": "Candidate mobile experience",
+      "initiative": "Mobile profile completion and interview prep flow",
+      "customer_segment": "mobile-first candidates and account managers",
+      "primary_persona": "mobile product owner",
+      "problem_statement": "Candidates abandon profile setup when resume, skills, availability, and interview prep are split across too many steps.",
+      "target_metric": "profile completion rate",
+      "customer_pain_score": 78,
+      "strategic_fit_score": 80,
+      "revenue_reach_score": 69,
+      "competitor_pressure_score": 82,
+      "effort_points": 24,
+      "dependency_risk_score": 36,
+      "analytics_readiness_score": 74,
+      "gtm_readiness_score": 84,
+      "roadmap_score": 87.4,
+      "recommendation": "Build after instrumentation",
+      "owner": "Mobile product and UX"
+    },
+    {
+      "initiative_id": "INIT-002",
+      "product_area": "Academy learning platform",
+      "initiative": "Learner progress and mentor intervention hub",
+      "customer_segment": "learners, mentors, and course advisors",
+      "primary_persona": "academy program manager",
+      "problem_statement": "Course teams need earlier signals when a learner is likely to stall before interview preparation begins.",
+      "target_metric": "course completion to interview-ready rate",
+      "customer_pain_score": 82,
+      "strategic_fit_score": 86,
+      "revenue_reach_score": 72,
+      "competitor_pressure_score": 74,
+      "effort_points": 29,
+      "dependency_risk_score": 42,
+      "analytics_readiness_score": 83,
+      "gtm_readiness_score": 81,
+      "roadmap_score": 87.3,
+      "recommendation": "Build now",
+      "owner": "Academy product and mentoring"
+    },
+    {
+      "initiative_id": "INIT-004",
+      "product_area": "Cloud SaaS support console",
+      "initiative": "SaaS support triage and SLA risk console",
+      "customer_segment": "managed service clients and support engineers",
+      "primary_persona": "support operations manager",
+      "problem_statement": "Support leads need to see SLA risk, product defects, client tier, and engineering ownership before issues breach.",
+      "target_metric": "first-contact resolution",
+      "customer_pain_score": 85,
+      "strategic_fit_score": 84,
+      "revenue_reach_score": 78,
+      "competitor_pressure_score": 69,
+      "effort_points": 31,
+      "dependency_risk_score": 47,
+      "analytics_readiness_score": 81,
+      "gtm_readiness_score": 73,
+      "roadmap_score": 85.8,
+      "recommendation": "Build now",
+      "owner": "Support operations and engineering"
+    },
+    {
+      "initiative_id": "INIT-003",
+      "product_area": "Client delivery workspace",
+      "initiative": "Client project health and acceptance workspace",
+      "customer_segment": "client sponsors and delivery squads",
+      "primary_persona": "client success director",
+      "problem_statement": "Client sponsors need one place to review requirements, delivery risk, acceptance criteria, and milestone decisions.",
+      "target_metric": "on-time milestone acceptance",
+      "customer_pain_score": 90,
+      "strategic_fit_score": 88,
+      "revenue_reach_score": 89,
+      "competitor_pressure_score": 72,
+      "effort_points": 38,
+      "dependency_risk_score": 61,
+      "analytics_readiness_score": 76,
+      "gtm_readiness_score": 68,
+      "roadmap_score": 85.0,
+      "recommendation": "Pilot with two clients",
+      "owner": "Product, engineering, and client success"
+    },
+    {
+      "initiative_id": "INIT-006",
+      "product_area": "Executive analytics layer",
+      "initiative": "Cross-service executive KPI and roadmap review",
+      "customer_segment": "executives, sales, and product leaders",
+      "primary_persona": "revenue operations leader",
+      "problem_statement": "Leaders need a common metric contract that connects funnel health, delivery outcomes, support risk, and roadmap tradeoffs.",
+      "target_metric": "weekly decision adoption",
+      "customer_pain_score": 74,
+      "strategic_fit_score": 87,
+      "revenue_reach_score": 82,
+      "competitor_pressure_score": 64,
+      "effort_points": 21,
+      "dependency_risk_score": 52,
+      "analytics_readiness_score": 68,
+      "gtm_readiness_score": 70,
+      "roadmap_score": 84.7,
+      "recommendation": "Instrument first",
+      "owner": "Product analytics and executives"
+    }
+  ],
+  "feedback": [
+    {
+      "signal_id": "SIG-01-01",
+      "initiative_id": "INIT-001",
+      "week": "2026-W11",
+      "channel": "support ticket",
+      "theme": "faster decision handoff",
+      "signal_volume": 23,
+      "urgency_score": 79,
+      "revenue_exposure_score": 78,
+      "evidence_summary": "Faster Decision Handoff signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-02",
+      "initiative_id": "INIT-001",
+      "week": "2026-W12",
+      "channel": "user interview",
+      "theme": "mobile completion friction",
+      "signal_volume": 28,
+      "urgency_score": 82,
+      "revenue_exposure_score": 82,
+      "evidence_summary": "Mobile Completion Friction signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-03",
+      "initiative_id": "INIT-001",
+      "week": "2026-W13",
+      "channel": "product analytics",
+      "theme": "metric definition gap",
+      "signal_volume": 33,
+      "urgency_score": 85,
+      "revenue_exposure_score": 86,
+      "evidence_summary": "Metric Definition Gap signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-04",
+      "initiative_id": "INIT-001",
+      "week": "2026-W14",
+      "channel": "CSM note",
+      "theme": "client status transparency",
+      "signal_volume": 38,
+      "urgency_score": 88,
+      "revenue_exposure_score": 90,
+      "evidence_summary": "Client Status Transparency signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-05",
+      "initiative_id": "INIT-001",
+      "week": "2026-W15",
+      "channel": "training cohort review",
+      "theme": "learning intervention timing",
+      "signal_volume": 43,
+      "urgency_score": 91,
+      "revenue_exposure_score": 76,
+      "evidence_summary": "Learning Intervention Timing signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-06",
+      "initiative_id": "INIT-001",
+      "week": "2026-W16",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 48,
+      "urgency_score": 94,
+      "revenue_exposure_score": 80,
+      "evidence_summary": "Support Sla Risk signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-07",
+      "initiative_id": "INIT-001",
+      "week": "2026-W17",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 53,
+      "urgency_score": 77,
+      "revenue_exposure_score": 84,
+      "evidence_summary": "Competitive Feature Parity signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-01-08",
+      "initiative_id": "INIT-001",
+      "week": "2026-W18",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 58,
+      "urgency_score": 80,
+      "revenue_exposure_score": 88,
+      "evidence_summary": "Workflow Visibility signal tied to talent placement portal"
+    },
+    {
+      "signal_id": "SIG-02-01",
+      "initiative_id": "INIT-005",
+      "week": "2026-W11",
+      "channel": "user interview",
+      "theme": "mobile completion friction",
+      "signal_volume": 30,
+      "urgency_score": 69,
+      "revenue_exposure_score": 63,
+      "evidence_summary": "Mobile Completion Friction signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-02",
+      "initiative_id": "INIT-005",
+      "week": "2026-W12",
+      "channel": "product analytics",
+      "theme": "metric definition gap",
+      "signal_volume": 35,
+      "urgency_score": 72,
+      "revenue_exposure_score": 67,
+      "evidence_summary": "Metric Definition Gap signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-03",
+      "initiative_id": "INIT-005",
+      "week": "2026-W13",
+      "channel": "CSM note",
+      "theme": "client status transparency",
+      "signal_volume": 40,
+      "urgency_score": 75,
+      "revenue_exposure_score": 71,
+      "evidence_summary": "Client Status Transparency signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-04",
+      "initiative_id": "INIT-005",
+      "week": "2026-W14",
+      "channel": "training cohort review",
+      "theme": "learning intervention timing",
+      "signal_volume": 45,
+      "urgency_score": 78,
+      "revenue_exposure_score": 75,
+      "evidence_summary": "Learning Intervention Timing signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-05",
+      "initiative_id": "INIT-005",
+      "week": "2026-W15",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 50,
+      "urgency_score": 81,
+      "revenue_exposure_score": 61,
+      "evidence_summary": "Support Sla Risk signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-06",
+      "initiative_id": "INIT-005",
+      "week": "2026-W16",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 55,
+      "urgency_score": 84,
+      "revenue_exposure_score": 65,
+      "evidence_summary": "Competitive Feature Parity signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-07",
+      "initiative_id": "INIT-005",
+      "week": "2026-W17",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 60,
+      "urgency_score": 67,
+      "revenue_exposure_score": 69,
+      "evidence_summary": "Workflow Visibility signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-02-08",
+      "initiative_id": "INIT-005",
+      "week": "2026-W18",
+      "channel": "product analytics",
+      "theme": "faster decision handoff",
+      "signal_volume": 18,
+      "urgency_score": 70,
+      "revenue_exposure_score": 73,
+      "evidence_summary": "Faster Decision Handoff signal tied to candidate mobile experience"
+    },
+    {
+      "signal_id": "SIG-03-01",
+      "initiative_id": "INIT-002",
+      "week": "2026-W11",
+      "channel": "product analytics",
+      "theme": "metric definition gap",
+      "signal_volume": 37,
+      "urgency_score": 73,
+      "revenue_exposure_score": 66,
+      "evidence_summary": "Metric Definition Gap signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-02",
+      "initiative_id": "INIT-002",
+      "week": "2026-W12",
+      "channel": "CSM note",
+      "theme": "client status transparency",
+      "signal_volume": 42,
+      "urgency_score": 76,
+      "revenue_exposure_score": 70,
+      "evidence_summary": "Client Status Transparency signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-03",
+      "initiative_id": "INIT-002",
+      "week": "2026-W13",
+      "channel": "training cohort review",
+      "theme": "learning intervention timing",
+      "signal_volume": 47,
+      "urgency_score": 79,
+      "revenue_exposure_score": 74,
+      "evidence_summary": "Learning Intervention Timing signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-04",
+      "initiative_id": "INIT-002",
+      "week": "2026-W14",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 52,
+      "urgency_score": 82,
+      "revenue_exposure_score": 78,
+      "evidence_summary": "Support Sla Risk signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-05",
+      "initiative_id": "INIT-002",
+      "week": "2026-W15",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 57,
+      "urgency_score": 85,
+      "revenue_exposure_score": 64,
+      "evidence_summary": "Competitive Feature Parity signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-06",
+      "initiative_id": "INIT-002",
+      "week": "2026-W16",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 62,
+      "urgency_score": 88,
+      "revenue_exposure_score": 68,
+      "evidence_summary": "Workflow Visibility signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-07",
+      "initiative_id": "INIT-002",
+      "week": "2026-W17",
+      "channel": "product analytics",
+      "theme": "faster decision handoff",
+      "signal_volume": 20,
+      "urgency_score": 71,
+      "revenue_exposure_score": 72,
+      "evidence_summary": "Faster Decision Handoff signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-03-08",
+      "initiative_id": "INIT-002",
+      "week": "2026-W18",
+      "channel": "CSM note",
+      "theme": "mobile completion friction",
+      "signal_volume": 25,
+      "urgency_score": 74,
+      "revenue_exposure_score": 76,
+      "evidence_summary": "Mobile Completion Friction signal tied to academy learning platform"
+    },
+    {
+      "signal_id": "SIG-04-01",
+      "initiative_id": "INIT-004",
+      "week": "2026-W11",
+      "channel": "CSM note",
+      "theme": "client status transparency",
+      "signal_volume": 44,
+      "urgency_score": 76,
+      "revenue_exposure_score": 72,
+      "evidence_summary": "Client Status Transparency signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-02",
+      "initiative_id": "INIT-004",
+      "week": "2026-W12",
+      "channel": "training cohort review",
+      "theme": "learning intervention timing",
+      "signal_volume": 49,
+      "urgency_score": 79,
+      "revenue_exposure_score": 76,
+      "evidence_summary": "Learning Intervention Timing signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-03",
+      "initiative_id": "INIT-004",
+      "week": "2026-W13",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 54,
+      "urgency_score": 82,
+      "revenue_exposure_score": 80,
+      "evidence_summary": "Support Sla Risk signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-04",
+      "initiative_id": "INIT-004",
+      "week": "2026-W14",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 59,
+      "urgency_score": 85,
+      "revenue_exposure_score": 84,
+      "evidence_summary": "Competitive Feature Parity signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-05",
+      "initiative_id": "INIT-004",
+      "week": "2026-W15",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 64,
+      "urgency_score": 88,
+      "revenue_exposure_score": 70,
+      "evidence_summary": "Workflow Visibility signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-06",
+      "initiative_id": "INIT-004",
+      "week": "2026-W16",
+      "channel": "product analytics",
+      "theme": "faster decision handoff",
+      "signal_volume": 22,
+      "urgency_score": 91,
+      "revenue_exposure_score": 74,
+      "evidence_summary": "Faster Decision Handoff signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-07",
+      "initiative_id": "INIT-004",
+      "week": "2026-W17",
+      "channel": "CSM note",
+      "theme": "mobile completion friction",
+      "signal_volume": 27,
+      "urgency_score": 74,
+      "revenue_exposure_score": 78,
+      "evidence_summary": "Mobile Completion Friction signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-04-08",
+      "initiative_id": "INIT-004",
+      "week": "2026-W18",
+      "channel": "training cohort review",
+      "theme": "metric definition gap",
+      "signal_volume": 32,
+      "urgency_score": 77,
+      "revenue_exposure_score": 82,
+      "evidence_summary": "Metric Definition Gap signal tied to cloud saas support console"
+    },
+    {
+      "signal_id": "SIG-05-01",
+      "initiative_id": "INIT-003",
+      "week": "2026-W11",
+      "channel": "training cohort review",
+      "theme": "learning intervention timing",
+      "signal_volume": 51,
+      "urgency_score": 81,
+      "revenue_exposure_score": 83,
+      "evidence_summary": "Learning Intervention Timing signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-02",
+      "initiative_id": "INIT-003",
+      "week": "2026-W12",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 56,
+      "urgency_score": 84,
+      "revenue_exposure_score": 87,
+      "evidence_summary": "Support Sla Risk signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-03",
+      "initiative_id": "INIT-003",
+      "week": "2026-W13",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 61,
+      "urgency_score": 87,
+      "revenue_exposure_score": 91,
+      "evidence_summary": "Competitive Feature Parity signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-04",
+      "initiative_id": "INIT-003",
+      "week": "2026-W14",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 19,
+      "urgency_score": 90,
+      "revenue_exposure_score": 95,
+      "evidence_summary": "Workflow Visibility signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-05",
+      "initiative_id": "INIT-003",
+      "week": "2026-W15",
+      "channel": "product analytics",
+      "theme": "faster decision handoff",
+      "signal_volume": 24,
+      "urgency_score": 93,
+      "revenue_exposure_score": 81,
+      "evidence_summary": "Faster Decision Handoff signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-06",
+      "initiative_id": "INIT-003",
+      "week": "2026-W16",
+      "channel": "CSM note",
+      "theme": "mobile completion friction",
+      "signal_volume": 29,
+      "urgency_score": 96,
+      "revenue_exposure_score": 85,
+      "evidence_summary": "Mobile Completion Friction signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-07",
+      "initiative_id": "INIT-003",
+      "week": "2026-W17",
+      "channel": "training cohort review",
+      "theme": "metric definition gap",
+      "signal_volume": 34,
+      "urgency_score": 79,
+      "revenue_exposure_score": 89,
+      "evidence_summary": "Metric Definition Gap signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-05-08",
+      "initiative_id": "INIT-003",
+      "week": "2026-W18",
+      "channel": "sales call",
+      "theme": "client status transparency",
+      "signal_volume": 39,
+      "urgency_score": 82,
+      "revenue_exposure_score": 93,
+      "evidence_summary": "Client Status Transparency signal tied to client delivery workspace"
+    },
+    {
+      "signal_id": "SIG-06-01",
+      "initiative_id": "INIT-006",
+      "week": "2026-W11",
+      "channel": "sales call",
+      "theme": "support SLA risk",
+      "signal_volume": 58,
+      "urgency_score": 65,
+      "revenue_exposure_score": 76,
+      "evidence_summary": "Support Sla Risk signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-02",
+      "initiative_id": "INIT-006",
+      "week": "2026-W12",
+      "channel": "support ticket",
+      "theme": "competitive feature parity",
+      "signal_volume": 63,
+      "urgency_score": 68,
+      "revenue_exposure_score": 80,
+      "evidence_summary": "Competitive Feature Parity signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-03",
+      "initiative_id": "INIT-006",
+      "week": "2026-W13",
+      "channel": "user interview",
+      "theme": "workflow visibility",
+      "signal_volume": 21,
+      "urgency_score": 71,
+      "revenue_exposure_score": 84,
+      "evidence_summary": "Workflow Visibility signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-04",
+      "initiative_id": "INIT-006",
+      "week": "2026-W14",
+      "channel": "product analytics",
+      "theme": "faster decision handoff",
+      "signal_volume": 26,
+      "urgency_score": 74,
+      "revenue_exposure_score": 88,
+      "evidence_summary": "Faster Decision Handoff signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-05",
+      "initiative_id": "INIT-006",
+      "week": "2026-W15",
+      "channel": "CSM note",
+      "theme": "mobile completion friction",
+      "signal_volume": 31,
+      "urgency_score": 77,
+      "revenue_exposure_score": 74,
+      "evidence_summary": "Mobile Completion Friction signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-06",
+      "initiative_id": "INIT-006",
+      "week": "2026-W16",
+      "channel": "training cohort review",
+      "theme": "metric definition gap",
+      "signal_volume": 36,
+      "urgency_score": 80,
+      "revenue_exposure_score": 78,
+      "evidence_summary": "Metric Definition Gap signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-07",
+      "initiative_id": "INIT-006",
+      "week": "2026-W17",
+      "channel": "sales call",
+      "theme": "client status transparency",
+      "signal_volume": 41,
+      "urgency_score": 63,
+      "revenue_exposure_score": 82,
+      "evidence_summary": "Client Status Transparency signal tied to executive analytics layer"
+    },
+    {
+      "signal_id": "SIG-06-08",
+      "initiative_id": "INIT-006",
+      "week": "2026-W18",
+      "channel": "support ticket",
+      "theme": "learning intervention timing",
+      "signal_volume": 46,
+      "urgency_score": 66,
+      "revenue_exposure_score": 86,
+      "evidence_summary": "Learning Intervention Timing signal tied to executive analytics layer"
+    }
+  ],
+  "competitors": [
+    {
+      "benchmark_id": "BENCH-01-01",
+      "initiative_id": "INIT-001",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "Smart candidate-job matching engine",
+      "observed_parity_score": 56,
+      "differentiation_gap_score": 48,
+      "recommended_response": "Differentiate"
+    },
+    {
+      "benchmark_id": "BENCH-01-02",
+      "initiative_id": "INIT-001",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "Smart candidate-job matching engine",
+      "observed_parity_score": 70,
+      "differentiation_gap_score": 34,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-01-03",
+      "initiative_id": "INIT-001",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "Smart candidate-job matching engine",
+      "observed_parity_score": 84,
+      "differentiation_gap_score": 20,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-01-04",
+      "initiative_id": "INIT-001",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "Smart candidate-job matching engine",
+      "observed_parity_score": 60,
+      "differentiation_gap_score": 44,
+      "recommended_response": "Differentiate"
+    },
+    {
+      "benchmark_id": "BENCH-02-01",
+      "initiative_id": "INIT-005",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "Mobile profile completion and interview prep flow",
+      "observed_parity_score": 77,
+      "differentiation_gap_score": 23,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-02-02",
+      "initiative_id": "INIT-005",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "Mobile profile completion and interview prep flow",
+      "observed_parity_score": 60,
+      "differentiation_gap_score": 40,
+      "recommended_response": "Differentiate"
+    },
+    {
+      "benchmark_id": "BENCH-02-03",
+      "initiative_id": "INIT-005",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "Mobile profile completion and interview prep flow",
+      "observed_parity_score": 81,
+      "differentiation_gap_score": 19,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-02-04",
+      "initiative_id": "INIT-005",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "Mobile profile completion and interview prep flow",
+      "observed_parity_score": 64,
+      "differentiation_gap_score": 36,
+      "recommended_response": "Differentiate"
+    },
+    {
+      "benchmark_id": "BENCH-03-01",
+      "initiative_id": "INIT-002",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "Learner progress and mentor intervention hub",
+      "observed_parity_score": 60,
+      "differentiation_gap_score": 32,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-03-02",
+      "initiative_id": "INIT-002",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "Learner progress and mentor intervention hub",
+      "observed_parity_score": 88,
+      "differentiation_gap_score": 5,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-03-03",
+      "initiative_id": "INIT-002",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "Learner progress and mentor intervention hub",
+      "observed_parity_score": 78,
+      "differentiation_gap_score": 14,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-03-04",
+      "initiative_id": "INIT-002",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "Learner progress and mentor intervention hub",
+      "observed_parity_score": 68,
+      "differentiation_gap_score": 24,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-04-01",
+      "initiative_id": "INIT-004",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "SaaS support triage and SLA risk console",
+      "observed_parity_score": 81,
+      "differentiation_gap_score": 6,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-04-02",
+      "initiative_id": "INIT-004",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "SaaS support triage and SLA risk console",
+      "observed_parity_score": 78,
+      "differentiation_gap_score": 9,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-04-03",
+      "initiative_id": "INIT-004",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "SaaS support triage and SLA risk console",
+      "observed_parity_score": 75,
+      "differentiation_gap_score": 12,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-04-04",
+      "initiative_id": "INIT-004",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "SaaS support triage and SLA risk console",
+      "observed_parity_score": 72,
+      "differentiation_gap_score": 15,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-05-01",
+      "initiative_id": "INIT-003",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "Client project health and acceptance workspace",
+      "observed_parity_score": 64,
+      "differentiation_gap_score": 26,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-05-02",
+      "initiative_id": "INIT-003",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "Client project health and acceptance workspace",
+      "observed_parity_score": 68,
+      "differentiation_gap_score": 22,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-05-03",
+      "initiative_id": "INIT-003",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "Client project health and acceptance workspace",
+      "observed_parity_score": 72,
+      "differentiation_gap_score": 18,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-05-04",
+      "initiative_id": "INIT-003",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "Client project health and acceptance workspace",
+      "observed_parity_score": 76,
+      "differentiation_gap_score": 14,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-06-01",
+      "initiative_id": "INIT-006",
+      "competitor_archetype": "Integrated ATS suite",
+      "capability": "Cross-service executive KPI and roadmap review",
+      "observed_parity_score": 85,
+      "differentiation_gap_score": 5,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-06-02",
+      "initiative_id": "INIT-006",
+      "competitor_archetype": "Learning platform suite",
+      "capability": "Cross-service executive KPI and roadmap review",
+      "observed_parity_score": 58,
+      "differentiation_gap_score": 24,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-06-03",
+      "initiative_id": "INIT-006",
+      "competitor_archetype": "Client delivery PMO tool",
+      "capability": "Cross-service executive KPI and roadmap review",
+      "observed_parity_score": 69,
+      "differentiation_gap_score": 13,
+      "recommended_response": "Match core expectation"
+    },
+    {
+      "benchmark_id": "BENCH-06-04",
+      "initiative_id": "INIT-006",
+      "competitor_archetype": "SaaS support desk",
+      "capability": "Cross-service executive KPI and roadmap review",
+      "observed_parity_score": 80,
+      "differentiation_gap_score": 5,
+      "recommended_response": "Match core expectation"
+    }
+  ],
+  "backlog": [
+    {
+      "story_id": "STORY-01-01",
+      "initiative_id": "INIT-001",
+      "theme": "Decision context",
+      "user_story": "As a placement operations lead, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 5,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-01-02",
+      "initiative_id": "INIT-001",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 3,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-01-03",
+      "initiative_id": "INIT-001",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 8,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-02-01",
+      "initiative_id": "INIT-005",
+      "theme": "Decision context",
+      "user_story": "As a mobile product owner, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 6,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-02-02",
+      "initiative_id": "INIT-005",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 4,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-02-03",
+      "initiative_id": "INIT-005",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 9,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-03-01",
+      "initiative_id": "INIT-002",
+      "theme": "Decision context",
+      "user_story": "As a academy program manager, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 7,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-03-02",
+      "initiative_id": "INIT-002",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 5,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-03-03",
+      "initiative_id": "INIT-002",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 10,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-04-01",
+      "initiative_id": "INIT-004",
+      "theme": "Decision context",
+      "user_story": "As a support operations manager, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 5,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-04-02",
+      "initiative_id": "INIT-004",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 3,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-04-03",
+      "initiative_id": "INIT-004",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 8,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-05-01",
+      "initiative_id": "INIT-003",
+      "theme": "Decision context",
+      "user_story": "As a client success director, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 6,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-05-02",
+      "initiative_id": "INIT-003",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 4,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-05-03",
+      "initiative_id": "INIT-003",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 9,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-06-01",
+      "initiative_id": "INIT-006",
+      "theme": "Decision context",
+      "user_story": "As a revenue operations leader, I need the decision context in one place so I can prioritize work without chasing disconnected updates.",
+      "acceptance_criteria": "Context includes customer signal, metric, owner, dependency, and decision date.",
+      "priority": "P0",
+      "story_points": 7,
+      "sprint_plan": "Sprint 1",
+      "owner": "Product",
+      "dependency": "UX review",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-06-02",
+      "initiative_id": "INIT-006",
+      "theme": "Metric contract",
+      "user_story": "As a product manager, I need a launch metric contract so I can evaluate success before release work starts.",
+      "acceptance_criteria": "Primary metric, guardrail metric, data source, event owner, and baseline are documented.",
+      "priority": "P0",
+      "story_points": 5,
+      "sprint_plan": "Sprint 2",
+      "owner": "Analytics",
+      "dependency": "event tracking",
+      "status": "Ready for grooming"
+    },
+    {
+      "story_id": "STORY-06-03",
+      "initiative_id": "INIT-006",
+      "theme": "Acceptance criteria",
+      "user_story": "As an engineering lead, I need clear acceptance criteria so sprint delivery matches the product intent.",
+      "acceptance_criteria": "Acceptance criteria cover happy path, edge cases, instrumentation, QA evidence, and rollback notes.",
+      "priority": "P1",
+      "story_points": 10,
+      "sprint_plan": "Sprint 2",
+      "owner": "Engineering",
+      "dependency": "QA test plan",
+      "status": "Ready for grooming"
+    }
+  ],
+  "readiness": [
+    {
+      "initiative_id": "INIT-001",
+      "requirements_score": 95,
+      "design_score": 84,
+      "engineering_score": 47,
+      "qa_score": 81,
+      "analytics_score": 79,
+      "sales_enablement_score": 75,
+      "release_readiness_score": 76.8,
+      "launch_risk": "Watch",
+      "next_gate": "Resolve analytics and dependency gaps"
+    },
+    {
+      "initiative_id": "INIT-005",
+      "requirements_score": 84,
+      "design_score": 74,
+      "engineering_score": 64,
+      "qa_score": 76,
+      "analytics_score": 74,
+      "sales_enablement_score": 84,
+      "release_readiness_score": 76.0,
+      "launch_risk": "Watch",
+      "next_gate": "Resolve analytics and dependency gaps"
+    },
+    {
+      "initiative_id": "INIT-002",
+      "requirements_score": 90,
+      "design_score": 78,
+      "engineering_score": 57,
+      "qa_score": 85,
+      "analytics_score": 83,
+      "sales_enablement_score": 81,
+      "release_readiness_score": 79.0,
+      "launch_risk": "Ready",
+      "next_gate": "Launch review"
+    },
+    {
+      "initiative_id": "INIT-004",
+      "requirements_score": 88,
+      "design_score": 81,
+      "engineering_score": 54,
+      "qa_score": 83,
+      "analytics_score": 81,
+      "sales_enablement_score": 73,
+      "release_readiness_score": 76.7,
+      "launch_risk": "Watch",
+      "next_gate": "Resolve analytics and dependency gaps"
+    },
+    {
+      "initiative_id": "INIT-003",
+      "requirements_score": 92,
+      "design_score": 86,
+      "engineering_score": 42,
+      "qa_score": 78,
+      "analytics_score": 76,
+      "sales_enablement_score": 68,
+      "release_readiness_score": 73.7,
+      "launch_risk": "Watch",
+      "next_gate": "Resolve analytics and dependency gaps"
+    },
+    {
+      "initiative_id": "INIT-006",
+      "requirements_score": 91,
+      "design_score": 70,
+      "engineering_score": 62,
+      "qa_score": 70,
+      "analytics_score": 68,
+      "sales_enablement_score": 70,
+      "release_readiness_score": 71.8,
+      "launch_risk": "Watch",
+      "next_gate": "Resolve analytics and dependency gaps"
+    }
+  ],
+  "metrics": [
+    {
+      "metric_contract_id": "MET-001",
+      "initiative_id": "INIT-001",
+      "primary_metric": "qualified placement conversion",
+      "baseline": "61%",
+      "target": "69%",
+      "guardrail_metric": "candidate opt-out rate",
+      "source_system": "Talent placement portal event stream",
+      "sql_check": "Validate weekly qualified placement conversion by initiative and segment",
+      "instrumentation_status": "Ready"
+    },
+    {
+      "metric_contract_id": "MET-002",
+      "initiative_id": "INIT-002",
+      "primary_metric": "course completion to interview-ready rate",
+      "baseline": "65%",
+      "target": "86%",
+      "guardrail_metric": "mentor intervention backlog",
+      "source_system": "Academy learning platform event stream",
+      "sql_check": "Validate weekly course completion to interview-ready rate by initiative and segment",
+      "instrumentation_status": "Ready"
+    },
+    {
+      "metric_contract_id": "MET-003",
+      "initiative_id": "INIT-003",
+      "primary_metric": "on-time milestone acceptance",
+      "baseline": "58%",
+      "target": "66%",
+      "guardrail_metric": "scope-change cycle time",
+      "source_system": "Client delivery workspace event stream",
+      "sql_check": "Validate weekly on-time milestone acceptance by initiative and segment",
+      "instrumentation_status": "Needs event QA"
+    },
+    {
+      "metric_contract_id": "MET-004",
+      "initiative_id": "INIT-004",
+      "primary_metric": "first-contact resolution",
+      "baseline": "63%",
+      "target": "84%",
+      "guardrail_metric": "ticket reopen rate",
+      "source_system": "Cloud SaaS support console event stream",
+      "sql_check": "Validate weekly first-contact resolution by initiative and segment",
+      "instrumentation_status": "Ready"
+    },
+    {
+      "metric_contract_id": "MET-005",
+      "initiative_id": "INIT-005",
+      "primary_metric": "profile completion rate",
+      "baseline": "75%",
+      "target": "80%",
+      "guardrail_metric": "support contact rate",
+      "source_system": "Candidate mobile experience event stream",
+      "sql_check": "Validate weekly profile completion rate by initiative and segment",
+      "instrumentation_status": "Needs event QA"
+    },
+    {
+      "metric_contract_id": "MET-006",
+      "initiative_id": "INIT-006",
+      "primary_metric": "weekly decision adoption",
+      "baseline": "69%",
+      "target": "87%",
+      "guardrail_metric": "definition dispute count",
+      "source_system": "Executive analytics layer event stream",
+      "sql_check": "Validate weekly weekly decision adoption by initiative and segment",
+      "instrumentation_status": "Needs event QA"
+    }
+  ],
+  "quality": [
+    {
+      "check_id": "QC-01-01",
+      "initiative_id": "INIT-001",
+      "check_name": "event completeness",
+      "source_system": "Talent placement portal",
+      "failure_rate": 0.021,
+      "severity": "Low",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-01-02",
+      "initiative_id": "INIT-001",
+      "check_name": "duplicate account mapping",
+      "source_system": "Talent placement portal",
+      "failure_rate": 0.024,
+      "severity": "Low",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-01-03",
+      "initiative_id": "INIT-001",
+      "check_name": "owner assignment",
+      "source_system": "Talent placement portal",
+      "failure_rate": 0.027,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-01-04",
+      "initiative_id": "INIT-001",
+      "check_name": "metric definition",
+      "source_system": "Talent placement portal",
+      "failure_rate": 0.03,
+      "severity": "Medium",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-01-05",
+      "initiative_id": "INIT-001",
+      "check_name": "release gate evidence",
+      "source_system": "Talent placement portal",
+      "failure_rate": 0.033,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-02-01",
+      "initiative_id": "INIT-005",
+      "check_name": "event completeness",
+      "source_system": "Candidate mobile experience",
+      "failure_rate": 0.027,
+      "severity": "Medium",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-02-02",
+      "initiative_id": "INIT-005",
+      "check_name": "duplicate account mapping",
+      "source_system": "Candidate mobile experience",
+      "failure_rate": 0.03,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-02-03",
+      "initiative_id": "INIT-005",
+      "check_name": "owner assignment",
+      "source_system": "Candidate mobile experience",
+      "failure_rate": 0.033,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-02-04",
+      "initiative_id": "INIT-005",
+      "check_name": "metric definition",
+      "source_system": "Candidate mobile experience",
+      "failure_rate": 0.036,
+      "severity": "High",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-02-05",
+      "initiative_id": "INIT-005",
+      "check_name": "release gate evidence",
+      "source_system": "Candidate mobile experience",
+      "failure_rate": 0.039,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-03-01",
+      "initiative_id": "INIT-002",
+      "check_name": "event completeness",
+      "source_system": "Academy learning platform",
+      "failure_rate": 0.019,
+      "severity": "Low",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-03-02",
+      "initiative_id": "INIT-002",
+      "check_name": "duplicate account mapping",
+      "source_system": "Academy learning platform",
+      "failure_rate": 0.022,
+      "severity": "Low",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-03-03",
+      "initiative_id": "INIT-002",
+      "check_name": "owner assignment",
+      "source_system": "Academy learning platform",
+      "failure_rate": 0.025,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-03-04",
+      "initiative_id": "INIT-002",
+      "check_name": "metric definition",
+      "source_system": "Academy learning platform",
+      "failure_rate": 0.028,
+      "severity": "Medium",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-03-05",
+      "initiative_id": "INIT-002",
+      "check_name": "release gate evidence",
+      "source_system": "Academy learning platform",
+      "failure_rate": 0.031,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-04-01",
+      "initiative_id": "INIT-004",
+      "check_name": "event completeness",
+      "source_system": "Cloud SaaS support console",
+      "failure_rate": 0.022,
+      "severity": "Low",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-04-02",
+      "initiative_id": "INIT-004",
+      "check_name": "duplicate account mapping",
+      "source_system": "Cloud SaaS support console",
+      "failure_rate": 0.025,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-04-03",
+      "initiative_id": "INIT-004",
+      "check_name": "owner assignment",
+      "source_system": "Cloud SaaS support console",
+      "failure_rate": 0.028,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-04-04",
+      "initiative_id": "INIT-004",
+      "check_name": "metric definition",
+      "source_system": "Cloud SaaS support console",
+      "failure_rate": 0.031,
+      "severity": "Medium",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-04-05",
+      "initiative_id": "INIT-004",
+      "check_name": "release gate evidence",
+      "source_system": "Cloud SaaS support console",
+      "failure_rate": 0.034,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-05-01",
+      "initiative_id": "INIT-003",
+      "check_name": "event completeness",
+      "source_system": "Client delivery workspace",
+      "failure_rate": 0.028,
+      "severity": "Medium",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-05-02",
+      "initiative_id": "INIT-003",
+      "check_name": "duplicate account mapping",
+      "source_system": "Client delivery workspace",
+      "failure_rate": 0.031,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-05-03",
+      "initiative_id": "INIT-003",
+      "check_name": "owner assignment",
+      "source_system": "Client delivery workspace",
+      "failure_rate": 0.034,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-05-04",
+      "initiative_id": "INIT-003",
+      "check_name": "metric definition",
+      "source_system": "Client delivery workspace",
+      "failure_rate": 0.037,
+      "severity": "High",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-05-05",
+      "initiative_id": "INIT-003",
+      "check_name": "release gate evidence",
+      "source_system": "Client delivery workspace",
+      "failure_rate": 0.04,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-06-01",
+      "initiative_id": "INIT-006",
+      "check_name": "event completeness",
+      "source_system": "Executive analytics layer",
+      "failure_rate": 0.037,
+      "severity": "High",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-06-02",
+      "initiative_id": "INIT-006",
+      "check_name": "duplicate account mapping",
+      "source_system": "Executive analytics layer",
+      "failure_rate": 0.04,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-06-03",
+      "initiative_id": "INIT-006",
+      "check_name": "owner assignment",
+      "source_system": "Executive analytics layer",
+      "failure_rate": 0.043,
+      "severity": "Medium",
+      "owner": "Product operations"
+    },
+    {
+      "check_id": "QC-06-04",
+      "initiative_id": "INIT-006",
+      "check_name": "metric definition",
+      "source_system": "Executive analytics layer",
+      "failure_rate": 0.046,
+      "severity": "High",
+      "owner": "Analytics"
+    },
+    {
+      "check_id": "QC-06-05",
+      "initiative_id": "INIT-006",
+      "check_name": "release gate evidence",
+      "source_system": "Executive analytics layer",
+      "failure_rate": 0.049,
+      "severity": "Medium",
+      "owner": "Product operations"
+    }
+  ],
+  "stakeholders": [
+    {
+      "update_id": "UPD-01-01",
+      "initiative_id": "INIT-001",
+      "function": "Engineering",
+      "alignment_score": 68,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-01-02",
+      "initiative_id": "INIT-001",
+      "function": "UX",
+      "alignment_score": 71,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-01-03",
+      "initiative_id": "INIT-001",
+      "function": "QA",
+      "alignment_score": 74,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-01-04",
+      "initiative_id": "INIT-001",
+      "function": "Marketing",
+      "alignment_score": 77,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-01-05",
+      "initiative_id": "INIT-001",
+      "function": "Sales",
+      "alignment_score": 80,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-01-06",
+      "initiative_id": "INIT-001",
+      "function": "Executive sponsor",
+      "alignment_score": 83,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-02-01",
+      "initiative_id": "INIT-005",
+      "function": "Engineering",
+      "alignment_score": 70,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-02-02",
+      "initiative_id": "INIT-005",
+      "function": "UX",
+      "alignment_score": 74,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-02-03",
+      "initiative_id": "INIT-005",
+      "function": "QA",
+      "alignment_score": 78,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-02-04",
+      "initiative_id": "INIT-005",
+      "function": "Marketing",
+      "alignment_score": 82,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-02-05",
+      "initiative_id": "INIT-005",
+      "function": "Sales",
+      "alignment_score": 86,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-02-06",
+      "initiative_id": "INIT-005",
+      "function": "Executive sponsor",
+      "alignment_score": 90,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-03-01",
+      "initiative_id": "INIT-002",
+      "function": "Engineering",
+      "alignment_score": 72,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-03-02",
+      "initiative_id": "INIT-002",
+      "function": "UX",
+      "alignment_score": 77,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-03-03",
+      "initiative_id": "INIT-002",
+      "function": "QA",
+      "alignment_score": 82,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-03-04",
+      "initiative_id": "INIT-002",
+      "function": "Marketing",
+      "alignment_score": 87,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-03-05",
+      "initiative_id": "INIT-002",
+      "function": "Sales",
+      "alignment_score": 92,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-03-06",
+      "initiative_id": "INIT-002",
+      "function": "Executive sponsor",
+      "alignment_score": 66,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-04-01",
+      "initiative_id": "INIT-004",
+      "function": "Engineering",
+      "alignment_score": 74,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-04-02",
+      "initiative_id": "INIT-004",
+      "function": "UX",
+      "alignment_score": 80,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-04-03",
+      "initiative_id": "INIT-004",
+      "function": "QA",
+      "alignment_score": 86,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-04-04",
+      "initiative_id": "INIT-004",
+      "function": "Marketing",
+      "alignment_score": 92,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-04-05",
+      "initiative_id": "INIT-004",
+      "function": "Sales",
+      "alignment_score": 67,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-04-06",
+      "initiative_id": "INIT-004",
+      "function": "Executive sponsor",
+      "alignment_score": 73,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-05-01",
+      "initiative_id": "INIT-003",
+      "function": "Engineering",
+      "alignment_score": 76,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-05-02",
+      "initiative_id": "INIT-003",
+      "function": "UX",
+      "alignment_score": 83,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-05-03",
+      "initiative_id": "INIT-003",
+      "function": "QA",
+      "alignment_score": 90,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-05-04",
+      "initiative_id": "INIT-003",
+      "function": "Marketing",
+      "alignment_score": 66,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-05-05",
+      "initiative_id": "INIT-003",
+      "function": "Sales",
+      "alignment_score": 73,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-05-06",
+      "initiative_id": "INIT-003",
+      "function": "Executive sponsor",
+      "alignment_score": 80,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-06-01",
+      "initiative_id": "INIT-006",
+      "function": "Engineering",
+      "alignment_score": 78,
+      "decision_needed": "Confirm sprint capacity and dependency owner",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-06-02",
+      "initiative_id": "INIT-006",
+      "function": "UX",
+      "alignment_score": 86,
+      "decision_needed": "Validate workflow with two personas",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-06-03",
+      "initiative_id": "INIT-006",
+      "function": "QA",
+      "alignment_score": 63,
+      "decision_needed": "Attach regression and acceptance evidence",
+      "cadence": "weekly launch review"
+    },
+    {
+      "update_id": "UPD-06-04",
+      "initiative_id": "INIT-006",
+      "function": "Marketing",
+      "alignment_score": 71,
+      "decision_needed": "Prepare launch positioning and FAQ",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-06-05",
+      "initiative_id": "INIT-006",
+      "function": "Sales",
+      "alignment_score": 79,
+      "decision_needed": "Map enablement to top objection",
+      "cadence": "biweekly roadmap review"
+    },
+    {
+      "update_id": "UPD-06-06",
+      "initiative_id": "INIT-006",
+      "function": "Executive sponsor",
+      "alignment_score": 87,
+      "decision_needed": "Approve tradeoff and success metric",
+      "cadence": "biweekly roadmap review"
+    }
+  ],
+  "surfaces": [
+    "Roadmap command center",
+    "Discovery and competitive signals",
+    "PRD and Agile delivery",
+    "Launch and measurement readiness"
+  ]
+}

@@ -1,12 +1,7 @@
-# Data Sources
+# Data README
 
-Synthetic but role-realistic data for Product Metrics Roadmap Decision Studio.
+All datasets in this folder are deterministic synthetic data generated for a public portfolio artifact. They do not represent real company performance, users, clients, candidates, learners, support tickets, courses, employees, or production systems.
 
-| File | Rows | Purpose |
-|---|---:|---|
-| entities.csv | 24 | Core operating objects and ownership. |
-| daily_metrics.csv | 2880 | Metric movement, quality, volume, and effort savings over 120 days. |
-| source_events.csv | 720 | Refresh, QA, customer, experiment, and release events explaining movement. |
-| stakeholder_requirements.csv | 80 | Business questions, metrics, acceptance tests, and status. |
-| data_quality_checks.csv | 360 | Freshness, null, duplicate, drift, and threshold checks. |
-| recommended_actions.csv | 90 | Prioritized next actions with value estimate and confidence. |
+The data models a technology services and training platform portfolio with placement workflows, academy learning tools, client delivery portals, cloud SaaS support, mobile candidate flows, and executive analytics.
+
+Run `python3 scripts/score_operating_data.py` from the repository root to regenerate every CSV and analysis output.

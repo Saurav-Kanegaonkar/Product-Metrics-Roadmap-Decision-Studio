@@ -1,0 +1,25 @@
+benchmark_id,initiative_id,competitor_archetype,capability,observed_parity_score,differentiation_gap_score,recommended_response
+BENCH-01-01,INIT-001,Integrated ATS suite,Smart candidate-job matching engine,56,48,Differentiate
+BENCH-01-02,INIT-001,Learning platform suite,Smart candidate-job matching engine,70,34,Match core expectation
+BENCH-01-03,INIT-001,Client delivery PMO tool,Smart candidate-job matching engine,84,20,Match core expectation
+BENCH-01-04,INIT-001,SaaS support desk,Smart candidate-job matching engine,60,44,Differentiate
+BENCH-02-01,INIT-005,Integrated ATS suite,Mobile profile completion and interview prep flow,77,23,Match core expectation
+BENCH-02-02,INIT-005,Learning platform suite,Mobile profile completion and interview prep flow,60,40,Differentiate
+BENCH-02-03,INIT-005,Client delivery PMO tool,Mobile profile completion and interview prep flow,81,19,Match core expectation
+BENCH-02-04,INIT-005,SaaS support desk,Mobile profile completion and interview prep flow,64,36,Differentiate
+BENCH-03-01,INIT-002,Integrated ATS suite,Learner progress and mentor intervention hub,60,32,Match core expectation
+BENCH-03-02,INIT-002,Learning platform suite,Learner progress and mentor intervention hub,88,5,Match core expectation
+BENCH-03-03,INIT-002,Client delivery PMO tool,Learner progress and mentor intervention hub,78,14,Match core expectation
+BENCH-03-04,INIT-002,SaaS support desk,Learner progress and mentor intervention hub,68,24,Match core expectation
+BENCH-04-01,INIT-004,Integrated ATS suite,SaaS support triage and SLA risk console,81,6,Match core expectation
+BENCH-04-02,INIT-004,Learning platform suite,SaaS support triage and SLA risk console,78,9,Match core expectation
+BENCH-04-03,INIT-004,Client delivery PMO tool,SaaS support triage and SLA risk console,75,12,Match core expectation
+BENCH-04-04,INIT-004,SaaS support desk,SaaS support triage and SLA risk console,72,15,Match core expectation
+BENCH-05-01,INIT-003,Integrated ATS suite,Client project health and acceptance workspace,64,26,Match core expectation
+BENCH-05-02,INIT-003,Learning platform suite,Client project health and acceptance workspace,68,22,Match core expectation
+BENCH-05-03,INIT-003,Client delivery PMO tool,Client project health and acceptance workspace,72,18,Match core expectation
+BENCH-05-04,INIT-003,SaaS support desk,Client project health and acceptance workspace,76,14,Match core expectation
+BENCH-06-01,INIT-006,Integrated ATS suite,Cross-service executive KPI and roadmap review,85,5,Match core expectation
+BENCH-06-02,INIT-006,Learning platform suite,Cross-service executive KPI and roadmap review,58,24,Match core expectation
+BENCH-06-03,INIT-006,Client delivery PMO tool,Cross-service executive KPI and roadmap review,69,13,Match core expectation
+BENCH-06-04,INIT-006,SaaS support desk,Cross-service executive KPI and roadmap review,80,5,Match core expectation

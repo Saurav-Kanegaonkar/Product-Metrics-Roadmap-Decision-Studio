@@ -1,0 +1,37 @@
+update_id,initiative_id,function,alignment_score,decision_needed,cadence
+UPD-01-01,INIT-001,Engineering,68,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-01-02,INIT-001,UX,71,Validate workflow with two personas,biweekly roadmap review
+UPD-01-03,INIT-001,QA,74,Attach regression and acceptance evidence,weekly launch review
+UPD-01-04,INIT-001,Marketing,77,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-01-05,INIT-001,Sales,80,Map enablement to top objection,biweekly roadmap review
+UPD-01-06,INIT-001,Executive sponsor,83,Approve tradeoff and success metric,biweekly roadmap review
+UPD-02-01,INIT-005,Engineering,70,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-02-02,INIT-005,UX,74,Validate workflow with two personas,biweekly roadmap review
+UPD-02-03,INIT-005,QA,78,Attach regression and acceptance evidence,weekly launch review
+UPD-02-04,INIT-005,Marketing,82,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-02-05,INIT-005,Sales,86,Map enablement to top objection,biweekly roadmap review
+UPD-02-06,INIT-005,Executive sponsor,90,Approve tradeoff and success metric,biweekly roadmap review
+UPD-03-01,INIT-002,Engineering,72,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-03-02,INIT-002,UX,77,Validate workflow with two personas,biweekly roadmap review
+UPD-03-03,INIT-002,QA,82,Attach regression and acceptance evidence,weekly launch review
+UPD-03-04,INIT-002,Marketing,87,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-03-05,INIT-002,Sales,92,Map enablement to top objection,biweekly roadmap review
+UPD-03-06,INIT-002,Executive sponsor,66,Approve tradeoff and success metric,biweekly roadmap review
+UPD-04-01,INIT-004,Engineering,74,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-04-02,INIT-004,UX,80,Validate workflow with two personas,biweekly roadmap review
+UPD-04-03,INIT-004,QA,86,Attach regression and acceptance evidence,weekly launch review
+UPD-04-04,INIT-004,Marketing,92,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-04-05,INIT-004,Sales,67,Map enablement to top objection,biweekly roadmap review
+UPD-04-06,INIT-004,Executive sponsor,73,Approve tradeoff and success metric,biweekly roadmap review
+UPD-05-01,INIT-003,Engineering,76,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-05-02,INIT-003,UX,83,Validate workflow with two personas,biweekly roadmap review
+UPD-05-03,INIT-003,QA,90,Attach regression and acceptance evidence,weekly launch review
+UPD-05-04,INIT-003,Marketing,66,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-05-05,INIT-003,Sales,73,Map enablement to top objection,biweekly roadmap review
+UPD-05-06,INIT-003,Executive sponsor,80,Approve tradeoff and success metric,biweekly roadmap review
+UPD-06-01,INIT-006,Engineering,78,Confirm sprint capacity and dependency owner,weekly launch review
+UPD-06-02,INIT-006,UX,86,Validate workflow with two personas,biweekly roadmap review
+UPD-06-03,INIT-006,QA,63,Attach regression and acceptance evidence,weekly launch review
+UPD-06-04,INIT-006,Marketing,71,Prepare launch positioning and FAQ,biweekly roadmap review
+UPD-06-05,INIT-006,Sales,79,Map enablement to top objection,biweekly roadmap review
+UPD-06-06,INIT-006,Executive sponsor,87,Approve tradeoff and success metric,biweekly roadmap review

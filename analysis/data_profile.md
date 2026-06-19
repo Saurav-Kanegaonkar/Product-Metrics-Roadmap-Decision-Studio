@@ -1,5 +1,14 @@
 # Data Profile
 
-This project contains six source-style datasets with 4154 records.
+The data profile checks whether the artifact has enough depth for a Product Manager portfolio discussion.
 
-The data is shaped so it can be inspected in SQL, notebooks, or a BI layer. The important design choice is that every recommendation can be traced back to a metric, source event, quality check, and stakeholder question.
+- Product initiatives: 6
+- Feedback signals: 48
+- Competitor benchmark records: 24
+- Backlog stories: 18
+- Release readiness records: 6
+- Metric contracts: 6
+- Data quality checks: 30
+- Stakeholder updates: 36
+
+The synthetic data is broad enough to show roadmap strategy, discovery evidence, PRD detail, Agile execution, release readiness, GTM planning, and product metric governance.

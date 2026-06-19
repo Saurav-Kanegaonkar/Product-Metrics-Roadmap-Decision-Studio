@@ -1,0 +1,7 @@
+initiative_id,requirements_score,design_score,engineering_score,qa_score,analytics_score,sales_enablement_score,release_readiness_score,launch_risk,next_gate
+INIT-001,95,84,47,81,79,75,76.8,Watch,Resolve analytics and dependency gaps
+INIT-005,84,74,64,76,74,84,76.0,Watch,Resolve analytics and dependency gaps
+INIT-002,90,78,57,85,83,81,79.0,Ready,Launch review
+INIT-004,88,81,54,83,81,73,76.7,Watch,Resolve analytics and dependency gaps
+INIT-003,92,86,42,78,76,68,73.7,Watch,Resolve analytics and dependency gaps
+INIT-006,91,70,62,70,68,70,71.8,Watch,Resolve analytics and dependency gaps

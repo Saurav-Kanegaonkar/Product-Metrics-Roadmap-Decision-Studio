@@ -1,0 +1,49 @@
+signal_id,initiative_id,week,channel,theme,signal_volume,urgency_score,revenue_exposure_score,evidence_summary
+SIG-01-01,INIT-001,2026-W11,support ticket,faster decision handoff,23,79,78,Faster Decision Handoff signal tied to talent placement portal
+SIG-01-02,INIT-001,2026-W12,user interview,mobile completion friction,28,82,82,Mobile Completion Friction signal tied to talent placement portal
+SIG-01-03,INIT-001,2026-W13,product analytics,metric definition gap,33,85,86,Metric Definition Gap signal tied to talent placement portal
+SIG-01-04,INIT-001,2026-W14,CSM note,client status transparency,38,88,90,Client Status Transparency signal tied to talent placement portal
+SIG-01-05,INIT-001,2026-W15,training cohort review,learning intervention timing,43,91,76,Learning Intervention Timing signal tied to talent placement portal
+SIG-01-06,INIT-001,2026-W16,sales call,support SLA risk,48,94,80,Support Sla Risk signal tied to talent placement portal
+SIG-01-07,INIT-001,2026-W17,support ticket,competitive feature parity,53,77,84,Competitive Feature Parity signal tied to talent placement portal
+SIG-01-08,INIT-001,2026-W18,user interview,workflow visibility,58,80,88,Workflow Visibility signal tied to talent placement portal
+SIG-02-01,INIT-005,2026-W11,user interview,mobile completion friction,30,69,63,Mobile Completion Friction signal tied to candidate mobile experience
+SIG-02-02,INIT-005,2026-W12,product analytics,metric definition gap,35,72,67,Metric Definition Gap signal tied to candidate mobile experience
+SIG-02-03,INIT-005,2026-W13,CSM note,client status transparency,40,75,71,Client Status Transparency signal tied to candidate mobile experience
+SIG-02-04,INIT-005,2026-W14,training cohort review,learning intervention timing,45,78,75,Learning Intervention Timing signal tied to candidate mobile experience
+SIG-02-05,INIT-005,2026-W15,sales call,support SLA risk,50,81,61,Support Sla Risk signal tied to candidate mobile experience
+SIG-02-06,INIT-005,2026-W16,support ticket,competitive feature parity,55,84,65,Competitive Feature Parity signal tied to candidate mobile experience
+SIG-02-07,INIT-005,2026-W17,user interview,workflow visibility,60,67,69,Workflow Visibility signal tied to candidate mobile experience
+SIG-02-08,INIT-005,2026-W18,product analytics,faster decision handoff,18,70,73,Faster Decision Handoff signal tied to candidate mobile experience
+SIG-03-01,INIT-002,2026-W11,product analytics,metric definition gap,37,73,66,Metric Definition Gap signal tied to academy learning platform
+SIG-03-02,INIT-002,2026-W12,CSM note,client status transparency,42,76,70,Client Status Transparency signal tied to academy learning platform
+SIG-03-03,INIT-002,2026-W13,training cohort review,learning intervention timing,47,79,74,Learning Intervention Timing signal tied to academy learning platform
+SIG-03-04,INIT-002,2026-W14,sales call,support SLA risk,52,82,78,Support Sla Risk signal tied to academy learning platform
+SIG-03-05,INIT-002,2026-W15,support ticket,competitive feature parity,57,85,64,Competitive Feature Parity signal tied to academy learning platform
+SIG-03-06,INIT-002,2026-W16,user interview,workflow visibility,62,88,68,Workflow Visibility signal tied to academy learning platform
+SIG-03-07,INIT-002,2026-W17,product analytics,faster decision handoff,20,71,72,Faster Decision Handoff signal tied to academy learning platform
+SIG-03-08,INIT-002,2026-W18,CSM note,mobile completion friction,25,74,76,Mobile Completion Friction signal tied to academy learning platform
+SIG-04-01,INIT-004,2026-W11,CSM note,client status transparency,44,76,72,Client Status Transparency signal tied to cloud saas support console
+SIG-04-02,INIT-004,2026-W12,training cohort review,learning intervention timing,49,79,76,Learning Intervention Timing signal tied to cloud saas support console
+SIG-04-03,INIT-004,2026-W13,sales call,support SLA risk,54,82,80,Support Sla Risk signal tied to cloud saas support console
+SIG-04-04,INIT-004,2026-W14,support ticket,competitive feature parity,59,85,84,Competitive Feature Parity signal tied to cloud saas support console
+SIG-04-05,INIT-004,2026-W15,user interview,workflow visibility,64,88,70,Workflow Visibility signal tied to cloud saas support console
+SIG-04-06,INIT-004,2026-W16,product analytics,faster decision handoff,22,91,74,Faster Decision Handoff signal tied to cloud saas support console
+SIG-04-07,INIT-004,2026-W17,CSM note,mobile completion friction,27,74,78,Mobile Completion Friction signal tied to cloud saas support console
+SIG-04-08,INIT-004,2026-W18,training cohort review,metric definition gap,32,77,82,Metric Definition Gap signal tied to cloud saas support console
+SIG-05-01,INIT-003,2026-W11,training cohort review,learning intervention timing,51,81,83,Learning Intervention Timing signal tied to client delivery workspace
+SIG-05-02,INIT-003,2026-W12,sales call,support SLA risk,56,84,87,Support Sla Risk signal tied to client delivery workspace
+SIG-05-03,INIT-003,2026-W13,support ticket,competitive feature parity,61,87,91,Competitive Feature Parity signal tied to client delivery workspace
+SIG-05-04,INIT-003,2026-W14,user interview,workflow visibility,19,90,95,Workflow Visibility signal tied to client delivery workspace
+SIG-05-05,INIT-003,2026-W15,product analytics,faster decision handoff,24,93,81,Faster Decision Handoff signal tied to client delivery workspace
+SIG-05-06,INIT-003,2026-W16,CSM note,mobile completion friction,29,96,85,Mobile Completion Friction signal tied to client delivery workspace
+SIG-05-07,INIT-003,2026-W17,training cohort review,metric definition gap,34,79,89,Metric Definition Gap signal tied to client delivery workspace
+SIG-05-08,INIT-003,2026-W18,sales call,client status transparency,39,82,93,Client Status Transparency signal tied to client delivery workspace
+SIG-06-01,INIT-006,2026-W11,sales call,support SLA risk,58,65,76,Support Sla Risk signal tied to executive analytics layer
+SIG-06-02,INIT-006,2026-W12,support ticket,competitive feature parity,63,68,80,Competitive Feature Parity signal tied to executive analytics layer
+SIG-06-03,INIT-006,2026-W13,user interview,workflow visibility,21,71,84,Workflow Visibility signal tied to executive analytics layer
+SIG-06-04,INIT-006,2026-W14,product analytics,faster decision handoff,26,74,88,Faster Decision Handoff signal tied to executive analytics layer
+SIG-06-05,INIT-006,2026-W15,CSM note,mobile completion friction,31,77,74,Mobile Completion Friction signal tied to executive analytics layer
+SIG-06-06,INIT-006,2026-W16,training cohort review,metric definition gap,36,80,78,Metric Definition Gap signal tied to executive analytics layer
+SIG-06-07,INIT-006,2026-W17,sales call,client status transparency,41,63,82,Client Status Transparency signal tied to executive analytics layer
+SIG-06-08,INIT-006,2026-W18,support ticket,learning intervention timing,46,66,86,Learning Intervention Timing signal tied to executive analytics layer

@@ -1,0 +1,7 @@
+metric_contract_id,initiative_id,primary_metric,baseline,target,guardrail_metric,source_system,sql_check,instrumentation_status
+MET-001,INIT-001,qualified placement conversion,61%,69%,candidate opt-out rate,Talent placement portal event stream,Validate weekly qualified placement conversion by initiative and segment,Ready
+MET-002,INIT-002,course completion to interview-ready rate,65%,86%,mentor intervention backlog,Academy learning platform event stream,Validate weekly course completion to interview-ready rate by initiative and segment,Ready
+MET-003,INIT-003,on-time milestone acceptance,58%,66%,scope-change cycle time,Client delivery workspace event stream,Validate weekly on-time milestone acceptance by initiative and segment,Needs event QA
+MET-004,INIT-004,first-contact resolution,63%,84%,ticket reopen rate,Cloud SaaS support console event stream,Validate weekly first-contact resolution by initiative and segment,Ready
+MET-005,INIT-005,profile completion rate,75%,80%,support contact rate,Candidate mobile experience event stream,Validate weekly profile completion rate by initiative and segment,Needs event QA
+MET-006,INIT-006,weekly decision adoption,69%,87%,definition dispute count,Executive analytics layer event stream,Validate weekly weekly decision adoption by initiative and segment,Needs event QA
